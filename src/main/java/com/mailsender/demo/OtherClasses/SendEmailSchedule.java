@@ -21,9 +21,9 @@ public class SendEmailSchedule {
         SimpleMailMessage message = new SimpleMailMessage();
 
         message.setFrom("Naglui.eretick@yandex.ru");
-        message.setTo("lezgyan@yandex.ru");
-        message.setSubject("Test Simple Email");
-        message.setText("Hello, Im testing Simple Email");
+        message.setTo("anyutka.glebova@bk.ru");
+        message.setSubject("Приветики, Ань");
+        message.setText("Немного спама вам в почту XD Таки это моё задание)) Практика весёлая штука");
 
         this.emailSender.send(message);
     }
