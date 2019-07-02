@@ -10,11 +10,6 @@ import java.util.List;
 public class DatabaseService {
     private static List<Addressees> listOfEmails = new LinkedList<>();
 
-    static {
-        listOfEmails.add(new Addressees("1111111111111111111111"));
-        listOfEmails.add(new Addressees("2222222222222222222222"));
-        listOfEmails.add(new Addressees("3333333333333333333333"));
-    }
 
     public List<Addressees> getListOfEmails() {
         return listOfEmails;
