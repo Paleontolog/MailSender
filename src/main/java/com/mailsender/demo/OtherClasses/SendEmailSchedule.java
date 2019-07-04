@@ -1,6 +1,7 @@
 package com.mailsender.demo.OtherClasses;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import com.mailsender.demo.database.DatabaseAccessor;
+import com.mailsender.demo.model.Addressees;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -11,20 +12,26 @@ import java.util.Date;
 @Component
 public class SendEmailSchedule {
 
-    @Autowired
-    public JavaMailSender emailSender;
+    private final JavaMailSender emailSender;
+    private final DatabaseAccessor databaseAccessor;
 
-    //@Scheduled(cron="0 0 17 * * MON-FRI")
-    @Scheduled(fixedDelay = 5000)
+    public SendEmailSchedule(JavaMailSender emailSender, DatabaseAccessor databaseAccessor) {
+        this.emailSender = emailSender;
+        this.databaseAccessor = databaseAccessor;
+    }
+
+    @Scheduled(cron="0 0 17 * * MON-FRI")
+   // @Scheduled(fixedDelay = 5000)
     public void sendEmail() {
         System.out.println(new Date());
         SimpleMailMessage message = new SimpleMailMessage();
-
         message.setFrom("Naglui.eretick@yandex.ru");
-        message.setTo("anyutka.glebova@bk.ru");
-        message.setSubject("Приветики, Ань");
-        message.setText("Немного спама вам в почту XD Таки это моё задание)) Практика весёлая штука");
-
-        this.emailSender.send(message);
+        for (Addressees addressees : databaseAccessor.getAllEmails()) {
+            System.out.println(addressees.getId() + " " + addressees.getEmail());
+            message.setTo(addressees.getEmail());
+            message.setSubject("Приветики, Ань");
+            message.setText("Немного спама вам в почту XD Таки это моё задание)) Практика весёлая штука");
+            this.emailSender.send(message);
+        }
     }
 }
