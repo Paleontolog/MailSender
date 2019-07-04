@@ -26,7 +26,7 @@ public class SendEmailSchedule {
         System.out.println(new Date());
         SimpleMailMessage message = new SimpleMailMessage();
         message.setFrom("Naglui.eretick@yandex.ru");
-        for (Addressees addressees : databaseAccessor.getAllEmails()) {
+        for (Addressees addressees : databaseAccessor.getAllAddresses()) {
             System.out.println(addressees.getId() + " " + addressees.getEmail());
             message.setTo(addressees.getEmail());
             message.setSubject("Приветики, Ань");

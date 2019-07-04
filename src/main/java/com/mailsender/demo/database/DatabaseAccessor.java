@@ -8,21 +8,22 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Component
-public class DatabaseAccessor {
+public class DatabaseAccessor implements IDatabaseAccessor{
 
     private static final String JDBC_driver = "org.h2.Driver";
-    private static final String DB_URL = "jdbc:h2:tcp://localhost/~/test";//"jdbc:h2:~/test";
+    private static final String DB_URL = "jdbc:h2:tcp://localhost/~/test";
     private static final String USER = "sa";
     private static final String PASS = "";
 
-    public List<Addressees> getAllEmails() {
+    @Override
+    public List<Addressees> getAllAddresses() {
         String sql = "select id, email from ADDRESSEES";
         List<Addressees> res = new ArrayList<>();
         try {
             Class.forName(JDBC_driver);
             try(Connection conn = DriverManager.getConnection (DB_URL, USER, PASS);
                 Statement st = conn.createStatement();
-                ResultSet rs = st.executeQuery(sql);
+                ResultSet rs = st.executeQuery(sql)
             ) {
                 while (rs.next()) {
                     res.add(new Addressees(rs.getLong("id"),
@@ -37,14 +38,26 @@ public class DatabaseAccessor {
         return res;
     }
 
-    public void addAddressees(String email) {
-        String sql = "insert into ADDRESSEES values (3, '"+ email +"')";
+    @Override
+    public void addAddressees(Addressees addressees) {
+        String sql = "insert into ADDRESSEES values (null, '"+ addressees.getEmail() +"')";
+        execute(sql);
+    }
+
+    @Override
+    public void updateAddresses(Addressees addresses) {
+        String sql = "UPDATE ADDRESSEES SET email ='" + addresses.getEmail() +
+                    "'WHERE ID=" + addresses.getId();
+        execute(sql);
+    }
+
+    private void execute(String sql) {
         try {
             Class.forName(JDBC_driver);
             try(Connection conn = DriverManager.getConnection (DB_URL, USER, PASS);
                 Statement st = conn.createStatement()
             ) {
-               st.executeUpdate(sql);
+                st.executeUpdate(sql);
             } catch (SQLException ex) {
                 ex.printStackTrace();
             }

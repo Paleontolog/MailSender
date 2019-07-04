@@ -15,14 +15,20 @@ public class AddressesController {
     @Autowired
     public DatabaseService databaseService;
 
-    @GetMapping("/addresses")
-    public List<Addressees> getListOfAddressees(){
-        return databaseService.getListOfEmails();
+    @GetMapping
+    public List<Addressees> getListOfAddressees() {
+        return databaseService.getListOfAddresses();
     }
 
     @PutMapping
     public ResponseEntity<?> add (@RequestBody Addressees addressees) {
-        databaseService.addAddresses(addressees.getEmail());
+        databaseService.addAddresses(addressees);
         return new ResponseEntity<>(null,  HttpStatus.CREATED);
+    }
+
+    @PostMapping
+    public ResponseEntity<?> update(@RequestBody Addressees addressees) {
+        databaseService.updateAddresses(addressees);
+        return new ResponseEntity<>(null,  HttpStatus.OK);
     }
 }
