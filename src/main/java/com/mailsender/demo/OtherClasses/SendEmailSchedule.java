@@ -1,6 +1,6 @@
 package com.mailsender.demo.OtherClasses;
 
-import com.mailsender.demo.database.DatabaseAccessor;
+import com.mailsender.demo.database.IDatabaseAccessor;
 import com.mailsender.demo.model.Addressees;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
@@ -13,9 +13,9 @@ import java.util.Date;
 public class SendEmailSchedule {
 
     private final JavaMailSender emailSender;
-    private final DatabaseAccessor databaseAccessor;
+    private final IDatabaseAccessor databaseAccessor;
 
-    public SendEmailSchedule(JavaMailSender emailSender, DatabaseAccessor databaseAccessor) {
+    public SendEmailSchedule(JavaMailSender emailSender, IDatabaseAccessor databaseAccessor) {
         this.emailSender = emailSender;
         this.databaseAccessor = databaseAccessor;
     }
@@ -27,10 +27,9 @@ public class SendEmailSchedule {
         SimpleMailMessage message = new SimpleMailMessage();
         message.setFrom("Naglui.eretick@yandex.ru");
         for (Addressees addressees : databaseAccessor.getAllAddresses()) {
-            System.out.println(addressees.getId() + " " + addressees.getEmail());
             message.setTo(addressees.getEmail());
-            message.setSubject("Приветики, Ань");
-            message.setText("Немного спама вам в почту XD Таки это моё задание)) Практика весёлая штука");
+            message.setSubject("Привет от Бэрримора");
+            message.setText("Пора пить чай");
             this.emailSender.send(message);
         }
     }

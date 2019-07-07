@@ -2,17 +2,16 @@ spring:
   application:
     name: MailSender
   mandatory-file-encoding: utf-8
-#  h2:
-#    console:
-#      enabled: true
+
   # ===============================
   # DB
   # ===============================
-#  datasource:
-#    url: jdbc:h2:tcp://localhost/~/test
-#    driverClassName: org.h2.Driver
-#    username: sa
-#    password:
+  datasource:
+    url: "jdbc:h2:~/example/src/main/resources/public/EmbeddedDb;" +
+    "INIT=create schema if not exists Queue\\; runscript from '~/example/create-db.sql'" #jdbc:h2:tcp://localhost/~/test
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
   # ===============================
   # JPA / HIBERNATE
   # ===============================
@@ -27,6 +26,8 @@ spring:
 #          jdbc:
 #            lob:
 #              non_contextual_creation: true
+
+
 
   mail:
     host: smtp.gmail.com
