@@ -7,21 +7,22 @@ spring:
   # DB
   # ===============================
   datasource:
-    url: "jdbc:h2:~/example/src/main/resources/public/EmbeddedDb;" +
-    "INIT=create schema if not exists Queue\\; runscript from '~/example/create-db.sql'" #jdbc:h2:tcp://localhost/~/test
+    url: jdbc:h2:./src/main/resources/database/EmbeddedDb;INIT=create schema if not exists ADDRESSEES\; runscript from './src/main/resources/database/create-db.sql'
+    #jdbc:h2:tcp://localhost/~/test
     driverClassName: org.h2.Driver
     username: sa
     password:
+
   # ===============================
   # JPA / HIBERNATE
   # ===============================
-#  jpa:
-#    show-sql: true
+  jpa:
+    show-sql: true
 #    hibernate:
 #      ddl-auto: update
-#    properties:
-#      hibernate:
-#        dialect: org.hibernate.dialect.H2Dialect
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
 #        hibernate:
 #          jdbc:
 #            lob:

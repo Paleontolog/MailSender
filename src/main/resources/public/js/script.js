@@ -25,6 +25,12 @@ function Hello() {
 				var tr = document.createElement('tr');
 				tr.appendChild(createTr(list[a].id));
 				tr.appendChild(createTr(list[a].email));
+				tr.onclick = function chooseOnClick() {
+					document.getElementById('inputID').value =
+						this.getElementsByTagName("td")[0].innerHTML;
+					document.getElementById('inputE-MAIL').value =
+						this.getElementsByTagName("td")[1].innerHTML;
+				};
 				document.getElementById('addressess list').appendChild(tr);
 			}
 		}
@@ -48,7 +54,7 @@ function add() {
 		client.onreadystatechange  = function() {
 			if (client.readyState === 4) {
 				if (client.status === 200) {
-					alert(client.responseText);
+					//alert(client.responseText);
 				}
 			}
 		};
@@ -78,7 +84,7 @@ function changeOnId() {
 		client.onreadystatechange  = function() {
 			if (client.readyState === 4) {
 				if (client.status === 200) {
-					alert(client.responseText);
+					//alert(client.responseText);
 				}
 			}
 		};

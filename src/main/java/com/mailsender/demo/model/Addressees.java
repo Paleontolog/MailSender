@@ -18,3 +18,4 @@ public class Addressees {
         return email;
     }
 }
+
