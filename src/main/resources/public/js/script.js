@@ -28,7 +28,7 @@ function Hello() {
 				tr.onclick = function chooseOnClick() {
 					document.getElementById('inputID').value =
 						this.getElementsByTagName("td")[0].innerHTML;
-					document.getElementById('inputE-MAIL').value =
+					document.getElementById('inputE-MAILChange').value =
 						this.getElementsByTagName("td")[1].innerHTML;
 				};
 				document.getElementById('addressess list').appendChild(tr);
@@ -40,7 +40,7 @@ function Hello() {
 
 function add() {
 
-	var textE_MAIL = document.getElementById('inputE-MAIL').value;
+	var textE_MAIL = document.getElementById('inputE-MAILAdd').value;
 	if (textE_MAIL !== "") {
 
 		var body = {
@@ -61,13 +61,13 @@ function add() {
 			client.send(JSON.stringify(body));
 		}
 		else
-			alert("Рукожоп");
+			alert("Должно быть заполнено поле email!");
 }
 
 function changeOnId() {
 	var textID = document.getElementById('inputID').value;
 
-	var textE_MAIL = document.getElementById('inputE-MAIL').value;
+	var textE_MAIL = document.getElementById('inputE-MAILChange').value;
 
 	if (textID !== "" && textE_MAIL !== "") {
 
@@ -91,6 +91,6 @@ function changeOnId() {
 		client.send(JSON.stringify(body));
 	}
 	else
-		alert("Рукожоп");
+		alert("Должны быть заполнены оба поля!");
 }
 

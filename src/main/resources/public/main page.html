@@ -20,10 +20,13 @@
 
 	<input type="button" onclick="Hello();" name="allAddresses" value="Список адресатов">
 	<div>
-		<input type="text" value="" id="inputID">
-		<input type="text" value="" id="inputE-MAIL">
+		<input type="text" value="" placeholder="email" id="inputE-MAILAdd">
+		<input type="button" onclick="add();" name="delAddresses" value="Добавить адресата">
 	</div>
-	<input type="button" onclick="add();" name="delAddresses" value="Добавить адресата">
-	<input type="button" onclick="changeOnId();" name="changeAddresses" value="Изменить адресата">
+	<div>
+		<input type="text" value="" placeholder="id" id="inputID">
+		<input type="text" value="" placeholder="email" id="inputE-MAILChange">
+		<input type="button" onclick="changeOnId();" name="changeAddresses" value="Изменить адресата">
+	</div>
 </body>
 </html>
