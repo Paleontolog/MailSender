@@ -1,4 +1,0 @@
-2019-07-09 19:40:03 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "ADDRESSEES" не найдена
-Table "ADDRESSEES" not found; SQL statement:
-select id, email from ADDRESSEES [42102-199]

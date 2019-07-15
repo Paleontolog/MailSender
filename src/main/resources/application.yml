@@ -45,5 +45,10 @@ spring:
           auth: true
   debug: true
 
+
+
 server:
   port: 8089
+
+schedule:
+  url: https://data.gov.ru/opendata/7708660670-proizvcalendar
