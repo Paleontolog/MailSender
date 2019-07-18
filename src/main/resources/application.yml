@@ -1,8 +1,8 @@
 spring:
   application:
     name: MailSender
-  mandatory-file-encoding: utf-8
 
+  mandatory-file-encoding: utf-8
   # ===============================
   # DB
   # ===============================
@@ -29,7 +29,6 @@ spring:
 #              non_contextual_creation: true
 
 
-
   mail:
     host: smtp.gmail.com
     username: 1Adeptus.Mechanicus1@gmail.com
@@ -46,9 +45,9 @@ spring:
   debug: true
 
 
-
 server:
-  port: 8089
+  port: 8080
 
 schedule:
   url: https://data.gov.ru/opendata/7708660670-proizvcalendar
+

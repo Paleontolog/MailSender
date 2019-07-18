@@ -1,6 +1,9 @@
 package com.mailsender.demo.database;
 
-import com.mailsender.demo.model.Addressees;
+import com.mailsender.demo.database.dto.AddresseesDB;
+import com.mailsender.demo.exceptions.DatabaseException;
+import com.mailsender.demo.exceptions.DatabaseExceptionsHandlers;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
@@ -10,8 +13,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
+@Slf4j
 @Repository
-public class DatabaseAccessorJDBC implements IDatabaseAccessor {
+public class DatabaseAccessorJDBC implements DatabaseAccessor {
 
     private JdbcTemplate jdbcTemplate;
 
@@ -20,31 +24,33 @@ public class DatabaseAccessorJDBC implements IDatabaseAccessor {
         this.jdbcTemplate = new JdbcTemplate(dataSource);
     }
 
-    private Addressees mapRow(ResultSet rs, int rowNum) throws SQLException {
+    private AddresseesDB mapRow(ResultSet rs, int rowNum) throws SQLException {
         Long id = rs.getLong("id");
         String email = rs.getString("email");
-        return new Addressees(id, email);
+        return new AddresseesDB(id, email);
     }
 
 
     @Override
-    public List<Addressees> getAllAddresses() {
+    public List<AddresseesDB> getAllAddresses() {
         return jdbcTemplate.query("select id, email from ADDRESSEES",
                 (resultSet, i) -> {
                     Long id = resultSet.getLong("id");
                     String email = resultSet.getString("email");
-                    return new Addressees(id, email);
+                    return new AddresseesDB(id, email);
                 });
     }
 
     @Override
-    public void addAddressees(Addressees addressees) {
-        jdbcTemplate.update("insert into ADDRESSEES values (?,?) ", null, addressees.getEmail());
+    public void addAddressees(AddresseesDB addresseesDB) {
+        jdbcTemplate.update("insert into ADDRESSEES values (?,?) ", null, addresseesDB.getEmail());
     }
 
     @Override
-    public void updateAddresses(Addressees addressees) {
-        jdbcTemplate.update("UPDATE ADDRESSEES SET email = ? WHERE ID = ?",
-                addressees.getEmail(), addressees.getId());
+    public void updateAddresses(AddresseesDB addresseesDB) {
+        if(jdbcTemplate.update("UPDATE ADDRESSEES SET email = ? WHERE ID = ?",
+                addresseesDB.getEmail(), addresseesDB.getId()) != 1) {
+            throw new DatabaseException(DatabaseExceptionsHandlers.USER_NOT_FOUND);
+        }
     }
 }

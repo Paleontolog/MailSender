@@ -1,4 +1,4 @@
-var url = "http://localhost:8089/api/addresses";
+var url = "http://localhost:8080/api/addresses";
 
 function createTr(obj) {
 	var td = document.createElement('td');
@@ -7,11 +7,10 @@ function createTr(obj) {
 }
 
 function Hello() {
-
 	var client = new XMLHttpRequest();
 	client.open("get", url, true);
 	client.onreadystatechange = function() {
-		if (client.readyState === 4 && client.status === 200) {
+		if (client.readyState === 4) {
 			var list = client.response;
 			list = JSON.parse(list);
 			var el = document.getElementById('addressess list');
@@ -39,7 +38,6 @@ function Hello() {
 }
 
 function add() {
-
 	var textE_MAIL = document.getElementById('inputE-MAILAdd').value;
 	if (textE_MAIL !== "") {
 

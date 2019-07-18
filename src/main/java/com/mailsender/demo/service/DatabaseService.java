@@ -1,7 +1,8 @@
 package com.mailsender.demo.service;
 
-import com.mailsender.demo.database.IDatabaseAccessor;
-import com.mailsender.demo.model.Addressees;
+import com.mailsender.demo.database.DatabaseAccessor;
+import com.mailsender.demo.database.dto.AddresseesDB;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -9,21 +10,22 @@ import java.util.List;
 @Service
 public class DatabaseService {
 
-    private final IDatabaseAccessor databaseAccessor;
+    private final DatabaseAccessor databaseAccessor;
 
-    public DatabaseService(IDatabaseAccessor databaseAccessor) {
+    @Autowired
+    public DatabaseService(DatabaseAccessor databaseAccessor) {
         this.databaseAccessor = databaseAccessor;
     }
 
-    public List<Addressees> getListOfAddresses() {
+    public List<AddresseesDB> getListOfAddresses() {
         return databaseAccessor.getAllAddresses();
     }
 
-    public void addAddresses(Addressees addressees) {
-        databaseAccessor.addAddressees(addressees);
+    public void addAddresses(AddresseesDB addresseesDB) {
+        databaseAccessor.addAddressees(addresseesDB);
     }
 
-    public void updateAddresses(Addressees addressees) {
-        databaseAccessor.updateAddresses(addressees);
+    public void updateAddresses(AddresseesDB addresseesDB) {
+        databaseAccessor.updateAddresses(addresseesDB);
     }
 }

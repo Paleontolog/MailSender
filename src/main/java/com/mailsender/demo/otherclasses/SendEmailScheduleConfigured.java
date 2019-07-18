@@ -1,4 +1,4 @@
-//package com.mailsender.demo;
+//package com.mailsender.demo.otherclasses;
 //
 //import com.mailsender.demo.csv.implement.CSVParserImpl;
 //import com.mailsender.demo.database.DatabaseAccessor;
@@ -44,8 +44,7 @@
 //    private String prepareCron() {
 //        String cronString = new CSVParserImpl().getCurrentSchedule();
 //        cronString = cronString.replaceAll("[^\\d,]", "");
-//        cronString = "*/5 * * * * *";
-//        System.out.println(cronString);
+//        cronString = "*/1 0 17 " + cronString + " * ?";
 //        return cronString;
 //    }
 //
