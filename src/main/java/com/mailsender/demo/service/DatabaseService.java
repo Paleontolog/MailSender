@@ -21,11 +21,11 @@ public class DatabaseService {
         return databaseAccessor.getAllAddresses();
     }
 
-    public void addAddresses(AddresseesDB addresseesDB) {
-        databaseAccessor.addAddressees(addresseesDB);
+    public int addAddresses(AddresseesDB addresseesDB) {
+        return databaseAccessor.addAddressees(addresseesDB);
     }
 
-    public void updateAddresses(AddresseesDB addresseesDB) {
-        databaseAccessor.updateAddresses(addresseesDB);
+    public int updateAddresses(AddresseesDB addresseesDB) {
+        return databaseAccessor.updateAddresses(addresseesDB);
     }
 }

@@ -1,5 +1,6 @@
 package com.mailsender.demo.web;
 
+import com.mailsender.demo.database.DatabaseAccessor;
 import com.mailsender.demo.database.dto.AddresseesDB;
 import com.mailsender.demo.mapper.Converter;
 import com.mailsender.demo.service.DatabaseService;

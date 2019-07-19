@@ -42,7 +42,7 @@ function add() {
 	if (textE_MAIL !== "") {
 
 		var body = {
-			id: 5,
+			id: null,
 			email: textE_MAIL
 		};
 
@@ -52,7 +52,7 @@ function add() {
 		client.onreadystatechange  = function() {
 			if (client.readyState === 4) {
 				if (client.status === 200) {
-					//alert(client.responseText);
+					alert("Пользователь добавлен в базу");
 				}
 			}
 		};
@@ -81,8 +81,10 @@ function changeOnId() {
 
 		client.onreadystatechange  = function() {
 			if (client.readyState === 4) {
-				if (client.status === 200) {
-					//alert(client.responseText);
+				if (client.status !== 200) {
+					alert("Обновление успешно прведено!");
+				} else {
+				    alert(client.status);
 				}
 			}
 		};

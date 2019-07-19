@@ -6,6 +6,6 @@ import java.util.List;
 
 public interface DatabaseAccessor {
     List<AddresseesDB> getAllAddresses();
-    void addAddressees(AddresseesDB addresseesDB);
-    void updateAddresses(AddresseesDB addresseesDB);
+    int addAddressees(AddresseesDB addresseesDB);
+    int updateAddresses(AddresseesDB addresseesDB);
 }

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="debug">
+    <Appenders>
+
+     <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="[%d{HH:mm:ss.SSS} %-5level] %logger{36} - %msg%n"/>
+     </Console>
+
+     <RollingFile name="File" fileName="src/main/resources/logs/error.log">
+      <PatternLayout pattern="%-5p %c{1}:%L - %m%n"/>
+     </RollingFile>
+
+    </Appenders>
+
+    <Loggers>
+        <Root level="all">
+            <AppenderRef ref="Console" level="debug" />
+            <AppenderRef ref="File" level="debug" />
+        </Root>
+    </Loggers>
+</Configuration>

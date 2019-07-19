@@ -42,15 +42,17 @@ public class DatabaseAccessorJDBC implements DatabaseAccessor {
     }
 
     @Override
-    public void addAddressees(AddresseesDB addresseesDB) {
-        jdbcTemplate.update("insert into ADDRESSEES values (?,?) ", null, addresseesDB.getEmail());
+    public int addAddressees(AddresseesDB addresseesDB) {
+        return jdbcTemplate.update("insert into ADDRESSEES values (?,?) ", null, addresseesDB.getEmail());
     }
 
     @Override
-    public void updateAddresses(AddresseesDB addresseesDB) {
-        if(jdbcTemplate.update("UPDATE ADDRESSEES SET email = ? WHERE ID = ?",
-                addresseesDB.getEmail(), addresseesDB.getId()) != 1) {
+    public int updateAddresses(AddresseesDB addresseesDB) {
+        int res = jdbcTemplate.update("UPDATE ADDRESSEES SET email = ? WHERE ID = ?",
+                addresseesDB.getEmail(), addresseesDB.getId());
+        if(res != 1) {
             throw new DatabaseException(DatabaseExceptionsHandlers.USER_NOT_FOUND);
         }
+        return res;
     }
 }
