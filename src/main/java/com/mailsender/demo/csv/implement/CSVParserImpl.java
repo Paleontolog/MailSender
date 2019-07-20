@@ -3,6 +3,7 @@ package com.mailsender.demo.csv.implement;
 import au.com.bytecode.opencsv.CSVReader;
 import com.mailsender.demo.csv.CSVParser;
 import com.mailsender.demo.csv.Downloader;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,7 @@ import java.io.IOException;
 import java.time.Year;
 import java.util.Calendar;
 
+@Slf4j
 @Component
 public class CSVParserImpl implements CSVParser {
 
@@ -23,20 +25,18 @@ public class CSVParserImpl implements CSVParser {
         this.downloader = downloader;
     }
 
-    private static Logger logger =  LoggerFactory.getLogger(CSVParserImpl.class);
+    private static String path = "src/main/resources/schedulefiles/schedule.csv";
 
-    private String path = "src/main/resources/schedulefiles/schedule.csv";
-
-    public String getCurrentSchedule () throws IOException {
+    public String getCurrentSchedule() throws IOException {
         String cronString = null;
         downloader.download();
         try (CSVReader reader = new CSVReader(new FileReader(path), ',', '"', 1)){
             String[] line ;
             int currentYear = Year.now().getValue();
-            logger.info(Integer.toString(currentYear));
+            log.info(Integer.toString(currentYear));
             // В строке месяцы начинаются с 1
             int currentMonth = Calendar.getInstance().get(Calendar.MONTH) + 1;
-            logger.info(Integer.toString(currentMonth));
+            log.info(Integer.toString(currentMonth));
 
             while ((line = reader.readNext()) != null &&
                     currentYear != Integer.parseInt(line[0]));

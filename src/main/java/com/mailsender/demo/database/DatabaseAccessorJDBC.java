@@ -19,6 +19,7 @@ public class DatabaseAccessorJDBC implements DatabaseAccessor {
 
     private JdbcTemplate jdbcTemplate;
 
+    @Override
     @Autowired
     public void setDataSource(DataSource dataSource) {
         this.jdbcTemplate = new JdbcTemplate(dataSource);

@@ -113,3 +113,78 @@
 [DEBUG] 2019-07-19 13:43:02.789 [main] TestController - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
 [INFO ] 2019-07-19 13:43:02.790 [main] TestController - No active profile set, falling back to default profiles: default
 [INFO ] 2019-07-19 13:43:06.701 [main] TestController - Started TestController in 4.237 seconds (JVM running for 5.285)
+[INFO ] 2019-07-19 21:52:49.163 [main] TestController - Starting TestController on DESKTOP-LFV37HU with PID 1260 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-19 21:52:49.163 [main] TestController - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-19 21:52:49.164 [main] TestController - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-19 21:52:53.069 [main] TestController - Started TestController in 4.263 seconds (JVM running for 5.851)
+[INFO ] 2019-07-19 21:54:11.454 [main] TestController - Starting TestController on DESKTOP-LFV37HU with PID 1016 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-19 21:54:11.454 [main] TestController - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-19 21:54:11.455 [main] TestController - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-19 21:54:15.008 [main] TestController - Started TestController in 3.829 seconds (JVM running for 4.866)
+[INFO ] 2019-07-19 22:36:49.624 [main] TestController - Starting TestController on DESKTOP-LFV37HU with PID 2480 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-19 22:36:49.624 [main] TestController - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-19 22:36:49.625 [main] TestController - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-19 22:36:53.583 [main] TestController - Started TestController in 4.226 seconds (JVM running for 5.366)
+[INFO ] 2019-07-19 22:37:14.226 [main] TestController - Starting TestController on DESKTOP-LFV37HU with PID 10608 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-19 22:37:14.227 [main] TestController - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-19 22:37:14.227 [main] TestController - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-19 22:37:17.677 [main] TestController - Started TestController in 3.702 seconds (JVM running for 4.728)
+[INFO ] 2019-07-19 22:45:22.238 [main] DemoApplicationTests - Starting DemoApplicationTests on DESKTOP-LFV37HU with PID 12224 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-19 22:45:22.239 [main] DemoApplicationTests - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-19 22:45:22.239 [main] DemoApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-19 22:45:25.492 [main] DemoApplicationTests - Started DemoApplicationTests in 3.467 seconds (JVM running for 4.643)
+[INFO ] 2019-07-19 22:45:25.758 [main] TestController - Starting TestController on DESKTOP-LFV37HU with PID 12224 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-19 22:45:25.758 [main] TestController - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-19 22:45:25.759 [main] TestController - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-19 22:45:26.697 [main] TestController - Started TestController in 0.957 seconds (JVM running for 5.848)
+[INFO ] 2019-07-19 22:48:06.044 [main] DemoApplicationTests - Starting DemoApplicationTests on DESKTOP-LFV37HU with PID 10796 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-19 22:48:06.044 [main] DemoApplicationTests - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-19 22:48:06.045 [main] DemoApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-19 22:48:09.704 [main] DemoApplicationTests - Started DemoApplicationTests in 3.878 seconds (JVM running for 5.032)
+[INFO ] 2019-07-19 22:48:09.997 [main] ExceptionnControllerTest - Starting ExceptionnControllerTest on DESKTOP-LFV37HU with PID 10796 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-19 22:48:09.997 [main] ExceptionnControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-19 22:48:09.997 [main] ExceptionnControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-19 22:48:11.130 [main] ExceptionnControllerTest - Started ExceptionnControllerTest in 1.173 seconds (JVM running for 6.457)
+[INFO ] 2019-07-19 23:45:12.076 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 11240 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-19 23:45:12.076 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-19 23:45:12.076 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-19 23:45:19.699 [restartedMain] Application - Started Application in 7.862 seconds (JVM running for 8.797)
+[INFO ] 2019-07-19 23:46:25.593 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 11760 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-19 23:46:25.593 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-19 23:46:25.593 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-19 23:47:04.032 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 7396 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-19 23:47:04.033 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-19 23:47:04.033 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-19 23:47:06.524 [restartedMain] Application - Started Application in 2.763 seconds (JVM running for 3.493)
+[INFO ] 2019-07-19 23:52:55.657 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 11404 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-19 23:52:55.657 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-19 23:52:55.657 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-19 23:52:58.070 [restartedMain] Application - Started Application in 2.651 seconds (JVM running for 3.384)
+[INFO ] 2019-07-20 00:01:45.492 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 2792 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-20 00:01:45.492 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-20 00:01:45.493 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-20 00:01:48.459 [restartedMain] Application - Started Application in 3.188 seconds (JVM running for 3.84)
+[INFO ] 2019-07-20 03:52:48.951 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 3528 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-20 03:52:48.951 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-20 03:52:48.951 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-20 03:52:52.221 [restartedMain] Application - Started Application in 3.52 seconds (JVM running for 4.413)
+[INFO ] 2019-07-20 13:44:40.441 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 3864 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-20 13:44:40.441 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-20 13:44:40.442 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-20 13:44:43.839 [restartedMain] Application - Started Application in 3.697 seconds (JVM running for 5.627)
+[INFO ] 2019-07-20 15:04:29.124 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 3864 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-20 15:04:29.124 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-20 15:04:29.124 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-20 15:04:30.756 [restartedMain] Application - Started Application in 1.67 seconds (JVM running for 4792.545)
+[INFO ] 2019-07-20 18:09:52.625 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 8224 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-20 18:09:52.626 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-20 18:09:52.626 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-20 18:09:56.304 [restartedMain] Application - Started Application in 3.909 seconds (JVM running for 4.693)
+[INFO ] 2019-07-20 18:37:48.885 [main] Application - Starting Application v0.0.1-SNAPSHOT on DESKTOP-LFV37HU with PID 10068 (D:\JAVA\MailSender\target\demo-0.0.1-SNAPSHOT.jar started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-20 18:37:48.900 [main] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-20 18:37:48.900 [main] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-20 18:37:52.878 [main] Application - Started Application in 4.272 seconds (JVM running for 4.933)
+[INFO ] 2019-07-20 18:58:51.041 [main] Application - Starting Application v0.0.1-SNAPSHOT on DESKTOP-LFV37HU with PID 3132 (D:\JAVA\MailSender\target\demo-0.0.1-SNAPSHOT.jar started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-20 18:58:51.041 [main] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-20 18:58:51.042 [main] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-20 18:58:55.121 [main] Application - Started Application in 4.376 seconds (JVM running for 5.031)

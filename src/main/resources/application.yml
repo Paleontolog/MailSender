@@ -3,31 +3,24 @@ spring:
   application:
     name: MailSender
 
-  mandatory-file-encoding: utf-8
+  mandatory-file-encoding: UTF-8
   # ===============================
   # DB
   # ===============================
-  datasource:
-    url: jdbc:h2:./src/main/resources/database/EmbeddedDb;INIT=create schema if not exists ADDRESSEES\; runscript from './src/main/resources/database/create-db.sql'
-    #jdbc:h2:tcp://localhost/~/test
-    driverClassName: org.h2.Driver
-    username: sa
-    password:
-   # ===============================
-  # JPA / HIBERNATE
-  # ===============================
-  jpa:
-    show-sql: true
-#    hibernate:
-#      ddl-auto: update
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.H2Dialect
-#        hibernate:
-#          jdbc:
-#            lob:
-#              non_contextual_creation: true
-
+#  datasource:
+#    url: jdbc:h2:./src/main/resources/database/EmbeddedDb;INIT=create schema if not exists ADDRESSEES\; runscript from './src/main/resources/database/create-db.sql'
+#    #jdbc:h2:tcp://localhost/~/test
+#    driverClassName: org.h2.Driver
+#    username: sa
+#    password:
+#   # ===============================
+#  # JPA / HIBERNATE
+#  # ===============================
+#  jpa:
+#    show-sql: true
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.H2Dialect
 
   mail:
     host: smtp.gmail.com
