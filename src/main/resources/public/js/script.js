@@ -1,4 +1,5 @@
-var url = "http://localhost:8080/api/addresses";
+//var url = "http://localhost:2375/api/addresses";
+var url = "tcp://localhost:2375/api/addresses";
 
 function createTr(obj) {
 	var td = document.createElement('td');

@@ -3,8 +3,7 @@ info:
   description: >-
     Микросервис почтовых рассылок. Предоставляет возможность указания почтовых
     андресов для автомaтической рассылки сообщений.
-  version: 2.0.0
-  title: email-wildcard-cast
+  version: 0.0.1
 host: 'localhost:8080'
 basePath: /api
 schemes:

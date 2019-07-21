@@ -192,3 +192,7 @@
 [DEBUG] 2019-07-21 00:40:49.694 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
 [INFO ] 2019-07-21 00:40:49.694 [restartedMain] Application - No active profile set, falling back to default profiles: default
 [INFO ] 2019-07-21 00:40:54.064 [restartedMain] Application - Started Application in 4.605 seconds (JVM running for 6.195)
+[INFO ] 2019-07-21 02:46:21.542 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 11336 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-21 02:46:21.542 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-21 02:46:21.543 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-21 02:46:25.168 [restartedMain] Application - Started Application in 3.848 seconds (JVM running for 4.524)

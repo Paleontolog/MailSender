@@ -3,7 +3,7 @@ spring:
   application:
     name: MailSender
 
-  mandatory-file-encoding: UTF-8
+#  mandatory-file-encoding: UTF-8
   # ===============================
   # DB
   # ===============================
