@@ -29,8 +29,6 @@
         <docker.image.prefix>paleontolog</docker.image.prefix>
     </properties>
 
-
-
     <dependencies>
 
         <dependency>
@@ -161,7 +159,6 @@
                 <configuration>
                     <repository>${docker.image.prefix}/${project.artifactId}</repository>
                     <tag>latest</tag>
-
                 </configuration>
             </plugin>
 

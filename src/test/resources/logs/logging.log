@@ -360,3 +360,199 @@
 [DEBUG] 2019-07-21 22:48:20.166 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
 [INFO ] 2019-07-21 22:48:20.167 [main] ControllerTest - No active profile set, falling back to default profiles: default
 [INFO ] 2019-07-21 22:48:22.401 [main] ControllerTest - Started ControllerTest in 2.259 seconds (JVM running for 8.715)
+[INFO ] 2019-07-21 23:07:14.700 [main] DatabaseAccessorTest - Starting DatabaseAccessorTest on DESKTOP-LFV37HU with PID 7532 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-21 23:07:14.700 [main] DatabaseAccessorTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-21 23:07:14.701 [main] DatabaseAccessorTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-21 23:07:19.727 [main] DatabaseAccessorTest - Started DatabaseAccessorTest in 5.229 seconds (JVM running for 6.086)
+[DEBUG] 2019-07-21 23:07:19.975 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=3, email=heretic@horus.ru)
+[DEBUG] 2019-07-21 23:07:19.980 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru), AddresseesDB(id=3, email=heretic@horus.ru)]
+[DEBUG] 2019-07-21 23:07:19.990 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=2, email=heretic@horus.ru)
+[DEBUG] 2019-07-21 23:07:19.992 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=heretic@horus.ru)]
+[DEBUG] 2019-07-21 23:07:20.000 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru)]
+[DEBUG] 2019-07-21 23:07:20.007 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=10, email=heretic@horus.ru)
+[INFO ] 2019-07-21 23:07:20.048 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 7532 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-21 23:07:20.048 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-21 23:07:20.049 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-21 23:07:22.384 [main] ControllerTest - Started ControllerTest in 2.355 seconds (JVM running for 8.744)
+[INFO ] 2019-07-21 23:12:09.147 [main] DatabaseAccessorTest - Starting DatabaseAccessorTest on DESKTOP-LFV37HU with PID 7252 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-21 23:12:09.147 [main] DatabaseAccessorTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-21 23:12:09.148 [main] DatabaseAccessorTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-21 23:12:14.190 [main] DatabaseAccessorTest - Started DatabaseAccessorTest in 5.25 seconds (JVM running for 6.094)
+[DEBUG] 2019-07-21 23:12:14.433 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=3, email=heretic@horus.ru)
+[DEBUG] 2019-07-21 23:12:14.439 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru), AddresseesDB(id=3, email=heretic@horus.ru)]
+[DEBUG] 2019-07-21 23:12:14.451 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=2, email=heretic@horus.ru)
+[DEBUG] 2019-07-21 23:12:14.454 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=heretic@horus.ru)]
+[DEBUG] 2019-07-21 23:12:14.463 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru)]
+[DEBUG] 2019-07-21 23:12:14.470 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=10, email=heretic@horus.ru)
+[INFO ] 2019-07-21 23:12:14.519 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 7252 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-21 23:12:14.519 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-21 23:12:14.520 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-21 23:12:16.863 [main] ControllerTest - Started ControllerTest in 2.365 seconds (JVM running for 8.767)
+[INFO ] 2019-07-21 23:12:58.445 [main] DatabaseAccessorTest - Starting DatabaseAccessorTest on DESKTOP-LFV37HU with PID 8708 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-21 23:12:58.445 [main] DatabaseAccessorTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-21 23:12:58.446 [main] DatabaseAccessorTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-21 23:13:03.639 [main] DatabaseAccessorTest - Started DatabaseAccessorTest in 5.408 seconds (JVM running for 6.258)
+[DEBUG] 2019-07-21 23:13:03.887 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=3, email=heretic@horus.ru)
+[DEBUG] 2019-07-21 23:13:03.892 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru), AddresseesDB(id=3, email=heretic@horus.ru)]
+[DEBUG] 2019-07-21 23:13:03.904 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=2, email=heretic@horus.ru)
+[DEBUG] 2019-07-21 23:13:03.907 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=heretic@horus.ru)]
+[DEBUG] 2019-07-21 23:13:03.925 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru)]
+[DEBUG] 2019-07-21 23:13:03.936 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=10, email=heretic@horus.ru)
+[INFO ] 2019-07-21 23:13:03.979 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 8708 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-21 23:13:03.979 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-21 23:13:03.980 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-21 23:13:06.241 [main] ControllerTest - Started ControllerTest in 2.281 seconds (JVM running for 8.86)
+[INFO ] 2019-07-22 00:16:30.236 [main] DatabaseAccessorTest - Starting DatabaseAccessorTest on DESKTOP-LFV37HU with PID 6128 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-22 00:16:30.237 [main] DatabaseAccessorTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-22 00:16:30.238 [main] DatabaseAccessorTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-22 00:16:35.233 [main] DatabaseAccessorTest - Started DatabaseAccessorTest in 5.203 seconds (JVM running for 6.042)
+[DEBUG] 2019-07-22 00:16:35.477 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=3, email=heretic@horus.ru)
+[DEBUG] 2019-07-22 00:16:35.484 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru), AddresseesDB(id=3, email=heretic@horus.ru)]
+[DEBUG] 2019-07-22 00:16:35.497 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=2, email=heretic@horus.ru)
+[DEBUG] 2019-07-22 00:16:35.500 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=heretic@horus.ru)]
+[DEBUG] 2019-07-22 00:16:35.508 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru)]
+[DEBUG] 2019-07-22 00:16:35.515 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=10, email=heretic@horus.ru)
+[INFO ] 2019-07-22 00:16:35.564 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 6128 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-22 00:16:35.564 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-22 00:16:35.565 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-22 00:16:37.871 [main] ControllerTest - Started ControllerTest in 2.328 seconds (JVM running for 8.68)
+[INFO ] 2019-07-22 00:19:59.094 [main] DatabaseAccessorTest - Starting DatabaseAccessorTest on DESKTOP-LFV37HU with PID 13784 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-22 00:19:59.095 [main] DatabaseAccessorTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-22 00:19:59.095 [main] DatabaseAccessorTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-22 00:20:04.135 [main] DatabaseAccessorTest - Started DatabaseAccessorTest in 5.249 seconds (JVM running for 6.088)
+[DEBUG] 2019-07-22 00:20:04.384 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=3, email=heretic@horus.ru)
+[DEBUG] 2019-07-22 00:20:04.389 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru), AddresseesDB(id=3, email=heretic@horus.ru)]
+[DEBUG] 2019-07-22 00:20:04.401 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=2, email=heretic@horus.ru)
+[DEBUG] 2019-07-22 00:20:04.403 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=heretic@horus.ru)]
+[DEBUG] 2019-07-22 00:20:04.411 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru)]
+[DEBUG] 2019-07-22 00:20:04.419 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=10, email=heretic@horus.ru)
+[INFO ] 2019-07-22 00:20:04.467 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 13784 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-22 00:20:04.467 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-22 00:20:04.467 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-22 00:20:06.790 [main] ControllerTest - Started ControllerTest in 2.343 seconds (JVM running for 8.743)
+[INFO ] 2019-07-22 00:22:41.759 [main] DatabaseAccessorTest - Starting DatabaseAccessorTest on DESKTOP-LFV37HU with PID 16360 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-22 00:22:41.759 [main] DatabaseAccessorTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-22 00:22:41.760 [main] DatabaseAccessorTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-22 00:22:46.843 [main] DatabaseAccessorTest - Started DatabaseAccessorTest in 5.284 seconds (JVM running for 6.128)
+[DEBUG] 2019-07-22 00:22:47.095 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=3, email=heretic@horus.ru)
+[DEBUG] 2019-07-22 00:22:47.102 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru), AddresseesDB(id=3, email=heretic@horus.ru)]
+[DEBUG] 2019-07-22 00:22:47.114 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=2, email=heretic@horus.ru)
+[DEBUG] 2019-07-22 00:22:47.117 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=heretic@horus.ru)]
+[DEBUG] 2019-07-22 00:22:47.126 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru)]
+[DEBUG] 2019-07-22 00:22:47.135 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=10, email=heretic@horus.ru)
+[INFO ] 2019-07-22 00:22:47.186 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 16360 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-22 00:22:47.186 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-22 00:22:47.186 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-22 00:22:49.489 [main] ControllerTest - Started ControllerTest in 2.33 seconds (JVM running for 8.773)
+[INFO ] 2019-07-22 00:49:10.642 [main] DatabaseAccessorTest - Starting DatabaseAccessorTest on DESKTOP-LFV37HU with PID 4792 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-22 00:49:10.643 [main] DatabaseAccessorTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-22 00:49:10.643 [main] DatabaseAccessorTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-22 00:49:15.637 [main] DatabaseAccessorTest - Started DatabaseAccessorTest in 5.202 seconds (JVM running for 6.049)
+[DEBUG] 2019-07-22 00:49:15.904 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=3, email=heretic@horus.ru)
+[DEBUG] 2019-07-22 00:49:15.910 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru), AddresseesDB(id=3, email=heretic@horus.ru)]
+[DEBUG] 2019-07-22 00:49:15.927 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=2, email=heretic@horus.ru)
+[DEBUG] 2019-07-22 00:49:15.930 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=heretic@horus.ru)]
+[DEBUG] 2019-07-22 00:49:15.940 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru)]
+[DEBUG] 2019-07-22 00:49:15.949 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=10, email=heretic@horus.ru)
+[INFO ] 2019-07-22 00:49:15.996 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 4792 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-22 00:49:15.996 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-22 00:49:15.997 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-22 00:49:18.223 [main] ControllerTest - Started ControllerTest in 2.247 seconds (JVM running for 8.636)
+[INFO ] 2019-07-22 01:13:35.795 [main] DatabaseAccessorTest - Starting DatabaseAccessorTest on DESKTOP-LFV37HU with PID 1988 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-22 01:13:35.796 [main] DatabaseAccessorTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-22 01:13:35.796 [main] DatabaseAccessorTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-22 01:13:40.210 [main] DatabaseAccessorTest - Started DatabaseAccessorTest in 4.628 seconds (JVM running for 5.498)
+[DEBUG] 2019-07-22 01:13:40.483 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=3, email=heretic@horus.ru)
+[DEBUG] 2019-07-22 01:13:40.489 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru), AddresseesDB(id=3, email=heretic@horus.ru)]
+[DEBUG] 2019-07-22 01:13:40.503 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=2, email=heretic@horus.ru)
+[DEBUG] 2019-07-22 01:13:40.506 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=heretic@horus.ru)]
+[DEBUG] 2019-07-22 01:13:40.517 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru)]
+[DEBUG] 2019-07-22 01:13:40.527 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=10, email=heretic@horus.ru)
+[INFO ] 2019-07-22 01:13:40.578 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 1988 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-22 01:13:40.578 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-22 01:13:40.578 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-22 01:13:42.015 [main] ControllerTest - Started ControllerTest in 1.459 seconds (JVM running for 7.303)
+[INFO ] 2019-07-22 01:18:19.091 [main] DatabaseAccessorTest - Starting DatabaseAccessorTest on DESKTOP-LFV37HU with PID 13796 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-22 01:18:19.092 [main] DatabaseAccessorTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-22 01:18:19.092 [main] DatabaseAccessorTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-22 01:18:24.161 [main] DatabaseAccessorTest - Started DatabaseAccessorTest in 5.278 seconds (JVM running for 6.125)
+[DEBUG] 2019-07-22 01:18:24.405 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=3, email=heretic@horus.ru)
+[DEBUG] 2019-07-22 01:18:24.411 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru), AddresseesDB(id=3, email=heretic@horus.ru)]
+[DEBUG] 2019-07-22 01:18:24.423 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=2, email=heretic@horus.ru)
+[DEBUG] 2019-07-22 01:18:24.425 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=heretic@horus.ru)]
+[DEBUG] 2019-07-22 01:18:24.434 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru)]
+[DEBUG] 2019-07-22 01:18:24.448 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=10, email=heretic@horus.ru)
+[INFO ] 2019-07-22 01:18:24.494 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 13796 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-22 01:18:24.494 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-22 01:18:24.494 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-22 01:18:27.138 [main] ControllerTest - Started ControllerTest in 2.666 seconds (JVM running for 9.101)
+[INFO ] 2019-07-22 01:21:11.709 [main] DatabaseAccessorTest - Starting DatabaseAccessorTest on DESKTOP-LFV37HU with PID 11352 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-22 01:21:11.709 [main] DatabaseAccessorTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-22 01:21:11.710 [main] DatabaseAccessorTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-22 01:21:17.037 [main] DatabaseAccessorTest - Started DatabaseAccessorTest in 5.543 seconds (JVM running for 6.407)
+[DEBUG] 2019-07-22 01:21:17.335 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=3, email=heretic@horus.ru)
+[DEBUG] 2019-07-22 01:21:17.343 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru), AddresseesDB(id=3, email=heretic@horus.ru)]
+[DEBUG] 2019-07-22 01:21:17.360 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=2, email=heretic@horus.ru)
+[DEBUG] 2019-07-22 01:21:17.363 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=heretic@horus.ru)]
+[DEBUG] 2019-07-22 01:21:17.376 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru)]
+[DEBUG] 2019-07-22 01:21:17.390 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=10, email=heretic@horus.ru)
+[INFO ] 2019-07-22 01:21:17.452 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 11352 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-22 01:21:17.452 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-22 01:21:17.453 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-22 01:21:20.060 [main] ControllerTest - Started ControllerTest in 2.637 seconds (JVM running for 9.43)
+[INFO ] 2019-07-22 01:24:48.097 [main] DatabaseAccessorTest - Starting DatabaseAccessorTest on DESKTOP-LFV37HU with PID 6676 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-22 01:24:48.097 [main] DatabaseAccessorTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-22 01:24:48.098 [main] DatabaseAccessorTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-22 01:24:53.160 [main] DatabaseAccessorTest - Started DatabaseAccessorTest in 5.266 seconds (JVM running for 6.103)
+[DEBUG] 2019-07-22 01:24:53.417 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=3, email=heretic@horus.ru)
+[DEBUG] 2019-07-22 01:24:53.422 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru), AddresseesDB(id=3, email=heretic@horus.ru)]
+[DEBUG] 2019-07-22 01:24:53.431 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=2, email=heretic@horus.ru)
+[DEBUG] 2019-07-22 01:24:53.433 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=heretic@horus.ru)]
+[DEBUG] 2019-07-22 01:24:53.441 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru)]
+[DEBUG] 2019-07-22 01:24:53.447 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=10, email=heretic@horus.ru)
+[INFO ] 2019-07-22 01:24:53.487 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 6676 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-22 01:24:53.487 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-22 01:24:53.488 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-22 01:24:55.829 [main] ControllerTest - Started ControllerTest in 2.361 seconds (JVM running for 8.772)
+[INFO ] 2019-07-22 01:34:17.962 [main] DatabaseAccessorTest - Starting DatabaseAccessorTest on DESKTOP-LFV37HU with PID 2400 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-22 01:34:17.962 [main] DatabaseAccessorTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-22 01:34:17.963 [main] DatabaseAccessorTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-22 01:34:23.079 [main] DatabaseAccessorTest - Started DatabaseAccessorTest in 5.321 seconds (JVM running for 6.159)
+[DEBUG] 2019-07-22 01:34:23.335 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=3, email=heretic@horus.ru)
+[DEBUG] 2019-07-22 01:34:23.341 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru), AddresseesDB(id=3, email=heretic@horus.ru)]
+[DEBUG] 2019-07-22 01:34:23.353 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=2, email=heretic@horus.ru)
+[DEBUG] 2019-07-22 01:34:23.356 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=heretic@horus.ru)]
+[DEBUG] 2019-07-22 01:34:23.366 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru)]
+[DEBUG] 2019-07-22 01:34:23.374 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=10, email=heretic@horus.ru)
+[INFO ] 2019-07-22 01:34:23.421 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 2400 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-22 01:34:23.421 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-22 01:34:23.421 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-22 01:34:25.699 [main] ControllerTest - Started ControllerTest in 2.299 seconds (JVM running for 8.779)
+[INFO ] 2019-07-22 02:03:59.083 [main] DatabaseAccessorTest - Starting DatabaseAccessorTest on DESKTOP-LFV37HU with PID 15136 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-22 02:03:59.083 [main] DatabaseAccessorTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-22 02:03:59.084 [main] DatabaseAccessorTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-22 02:04:04.031 [main] DatabaseAccessorTest - Started DatabaseAccessorTest in 5.155 seconds (JVM running for 6.006)
+[DEBUG] 2019-07-22 02:04:04.274 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=3, email=heretic@horus.ru)
+[DEBUG] 2019-07-22 02:04:04.279 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru), AddresseesDB(id=3, email=heretic@horus.ru)]
+[DEBUG] 2019-07-22 02:04:04.291 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=2, email=heretic@horus.ru)
+[DEBUG] 2019-07-22 02:04:04.293 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=heretic@horus.ru)]
+[DEBUG] 2019-07-22 02:04:04.302 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru)]
+[DEBUG] 2019-07-22 02:04:04.312 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=10, email=heretic@horus.ru)
+[INFO ] 2019-07-22 02:04:04.355 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 15136 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-22 02:04:04.355 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-22 02:04:04.356 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-22 02:04:06.641 [main] ControllerTest - Started ControllerTest in 2.305 seconds (JVM running for 8.617)
+[INFO ] 2019-07-22 02:06:38.013 [main] DatabaseAccessorTest - Starting DatabaseAccessorTest on DESKTOP-LFV37HU with PID 13984 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-22 02:06:38.013 [main] DatabaseAccessorTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-22 02:06:38.013 [main] DatabaseAccessorTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-22 02:06:42.642 [main] DatabaseAccessorTest - Started DatabaseAccessorTest in 4.88 seconds (JVM running for 5.833)
+[DEBUG] 2019-07-22 02:06:42.889 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=3, email=heretic@horus.ru)
+[DEBUG] 2019-07-22 02:06:42.895 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru), AddresseesDB(id=3, email=heretic@horus.ru)]
+[DEBUG] 2019-07-22 02:06:42.906 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=2, email=heretic@horus.ru)
+[DEBUG] 2019-07-22 02:06:42.909 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=heretic@horus.ru)]
+[DEBUG] 2019-07-22 02:06:42.918 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru)]
+[DEBUG] 2019-07-22 02:06:42.927 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=10, email=heretic@horus.ru)
+[INFO ] 2019-07-22 02:06:42.975 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 13984 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-22 02:06:42.975 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-22 02:06:42.975 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-22 02:06:45.379 [main] ControllerTest - Started ControllerTest in 2.424 seconds (JVM running for 8.57)
