@@ -16,7 +16,7 @@ import java.util.List;
 @Slf4j
 @Repository
 public class DatabaseAccessorJDBC implements DatabaseAccessor {
-
+    //@Autowired
     private JdbcTemplate jdbcTemplate;
 
     @Override

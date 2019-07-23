@@ -10,6 +10,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabase;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;
@@ -26,6 +27,8 @@ import java.util.List;
 @SpringBootTest
 @RunWith(SpringRunner.class)
 public class DatabaseAccessorTest {
+
+    @Autowired
     private DatabaseAccessor databaseAccessor;
 
     private List<String> emails = Arrays.asList("lezgyan@yandex.ru",
@@ -39,8 +42,6 @@ public class DatabaseAccessorTest {
                 .setType(EmbeddedDatabaseType.H2)
                 .addScript("databasetest/beforetest.sql")
                 .build();
-        databaseAccessor = new DatabaseAccessorJDBC();
-        databaseAccessor.setDataSource(db);
     }
 
     @After
