@@ -31,7 +31,6 @@ public class DatabaseAccessorJDBC implements DatabaseAccessor {
         return new AddresseesDB(id, email);
     }
 
-
     @Override
     public List<AddresseesDB> getAllAddresses() {
         return jdbcTemplate.query("select id, email from ADDRESSEES",
@@ -52,6 +51,7 @@ public class DatabaseAccessorJDBC implements DatabaseAccessor {
         int res = jdbcTemplate.update("UPDATE ADDRESSEES SET email = ? WHERE ID = ?",
                 addresseesDB.getEmail(), addresseesDB.getId());
         if(res != 1) {
+            log.error("User not found");
             throw new DatabaseException(DatabaseExceptionsHandlers.USER_NOT_FOUND);
         }
         return res;

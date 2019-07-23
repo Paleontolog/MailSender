@@ -9,13 +9,13 @@ spring:
   # ===============================
 #  datasource:
 #    url: jdbc:h2:./src/main/resources/database/EmbeddedDb;INIT=create schema if not exists ADDRESSEES\; runscript from './src/main/resources/database/create-db.sql'
-#    #jdbc:h2:tcp://localhost/~/test
+#    #url: jdbc:h2:tcp://localhost/~/test
 #    driverClassName: org.h2.Driver
 #    username: sa
 #    password:
-#   # ===============================
-#  # JPA / HIBERNATE
-#  # ===============================
+  # ===============================
+ # JPA / HIBERNATE
+  # ===============================
 #  jpa:
 #    show-sql: true
 #    properties:
@@ -43,4 +43,5 @@ server:
 
 schedule:
   url: https://data.gov.ru/opendata/7708660670-proizvcalendar
+  folder: src/main/resources/schedulefiles/schedule.csv
 

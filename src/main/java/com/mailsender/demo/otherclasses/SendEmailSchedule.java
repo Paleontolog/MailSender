@@ -31,6 +31,7 @@ public class SendEmailSchedule {
     }
 
     private void executed() {
+        log.info("Sending messages to emails");
         SimpleMailMessage message = new SimpleMailMessage();
         message.setFrom("Naglui.eretick@yandex.ru");
         for (AddresseesDB addresseesDB : databaseAccessor.getAllAddresses()) {
@@ -39,6 +40,7 @@ public class SendEmailSchedule {
             message.setText("Пора пить чай");
             this.emailSender.send(message);
         }
+        log.info("All messages sended");
     }
 
     @Scheduled(cron="0 0 17 * * MON-FRI")
@@ -55,6 +57,8 @@ public class SendEmailSchedule {
         if (checkDay.contains(date)) {
             log.info("Sending emails");
             executed();
+        } else {
+            log.info("It's a not working day");
         }
     }
 }

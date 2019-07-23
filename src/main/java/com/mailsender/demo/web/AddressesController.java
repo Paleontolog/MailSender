@@ -32,6 +32,7 @@ public class AddressesController {
 
     @PutMapping
     public ResponseEntity<?> add (@RequestBody AddressesWebDTO addressees) {
+        log.info(addressees.toString());
         AddresseesDB addresseesDB = converter.webAddressesToDatabase(addressees);
         databaseService.addAddresses(addresseesDB);
         return new ResponseEntity<>(null,  HttpStatus.OK);
@@ -39,6 +40,7 @@ public class AddressesController {
 
     @PostMapping
     public ResponseEntity<?> update(@RequestBody AddressesWebDTO addressees) {
+        log.info(addressees.toString());
         AddresseesDB addresseesDB = converter.webAddressesToDatabase(addressees);
         databaseService.updateAddresses(addresseesDB);
         return new ResponseEntity<>(null,  HttpStatus.OK);

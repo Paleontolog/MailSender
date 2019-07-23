@@ -7,6 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import java.io.FileReader;
@@ -25,12 +26,17 @@ public class CSVParserImpl implements CSVParser {
         this.downloader = downloader;
     }
 
-    private static String path = "src/main/resources/schedulefiles/schedule.csv";
+    @Value("${schedule.url}")
+    private String url;
+    @Value("${schedule.folder}")
+    private String folder;
 
     public String getCurrentSchedule() throws IOException {
         String cronString = null;
-        downloader.download();
-        try (CSVReader reader = new CSVReader(new FileReader(path), ',', '"', 1)){
+
+        downloader.download(url, folder);
+
+        try (CSVReader reader = new CSVReader(new FileReader(folder), ',', '"', 1)){
             String[] line ;
             int currentYear = Year.now().getValue();
             log.info(Integer.toString(currentYear));
@@ -40,9 +46,12 @@ public class CSVParserImpl implements CSVParser {
 
             while ((line = reader.readNext()) != null &&
                     currentYear != Integer.parseInt(line[0]));
+
             assert line != null;
+
             cronString = line[currentMonth];
         } catch (IOException e) {
+            log.error("Parsing schedule error", e);
             e.printStackTrace();
         }
         return cronString;
