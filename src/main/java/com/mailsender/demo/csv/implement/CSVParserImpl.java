@@ -19,12 +19,8 @@ import java.util.Calendar;
 @Component
 public class CSVParserImpl implements CSVParser {
 
-    private Downloader downloader;
-
     @Autowired
-    public CSVParserImpl(Downloader downloader) {
-        this.downloader = downloader;
-    }
+    private Downloader downloader;
 
     @Value("${schedule.url}")
     private String url;
@@ -40,7 +36,6 @@ public class CSVParserImpl implements CSVParser {
             String[] line ;
             int currentYear = Year.now().getValue();
             log.info(Integer.toString(currentYear));
-            // В строке месяцы начинаются с 1
             int currentMonth = Calendar.getInstance().get(Calendar.MONTH) + 1;
             log.info(Integer.toString(currentMonth));
 

@@ -79,7 +79,6 @@ public class DatabaseAccessorTest {
     }
 
     @Test
-    //@Rollback
     public void updateTestOk() {
         AddresseesDB addresseesDB = new AddresseesDB(2L, "heretic@horus.ru");
         log.debug("Loaded Persons: " + addresseesDB);
@@ -92,11 +91,9 @@ public class DatabaseAccessorTest {
     }
 
     @Test(expected = DatabaseException.class)
-    //@Rollback
     public void updateTestException() {
         AddresseesDB addresseesDB = new AddresseesDB(10L, "heretic@horus.ru");
         log.debug("Loaded Persons: " + addresseesDB);
         databaseAccessor.updateAddresses(addresseesDB);
     }
-
 }

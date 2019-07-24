@@ -6,7 +6,7 @@ function createTr(obj) {
 	return td;
 }
 
-function Hello() {
+function getAllAddressees() {
 	var client = new XMLHttpRequest();
 	client.open("get", url, true);
 	client.onreadystatechange = function() {
@@ -16,7 +16,7 @@ function Hello() {
 			var el = document.getElementById('addressess list');
 			var len = el.rows.length;
 
-			for (var t = len - 1; t > 0; t--) {
+			for (var t = len - 1; t >= 0; t--) {
 				el.deleteRow(t);
 			}
 
@@ -37,7 +37,7 @@ function Hello() {
 	client.send();
 }
 
-function add() {
+function addAddressees() {
 	var textE_MAIL = document.getElementById('inputE-MAILAdd').value;
 	if (textE_MAIL !== "") {
 
@@ -62,7 +62,7 @@ function add() {
 			alert("Должно быть заполнено поле email!");
 }
 
-function changeOnId() {
+function changeAddresseesOnId() {
 	var textID = document.getElementById('inputID').value;
 
 	var textE_MAIL = document.getElementById('inputE-MAILChange').value;
@@ -81,10 +81,10 @@ function changeOnId() {
 
 		client.onreadystatechange  = function() {
 			if (client.readyState === 4) {
-				if (client.status !== 200) {
-					alert("Обновление успешно прведено!");
+				if (client.status === 200) {
+					alert("Обновление успешно проведено!");
 				} else {
-				    alert(client.status);
+				    alert("Ошибка! " + client.status);
 				}
 			}
 		};

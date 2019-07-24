@@ -13,6 +13,7 @@ public class ExceptionController extends ResponseEntityExceptionHandler {
 
     @ExceptionHandler({DatabaseException.class})
     public ResponseEntity<DatabaseExceptionsHandlers> exceptionChangeUncownUser(DatabaseException ex) {
-        return new ResponseEntity<DatabaseExceptionsHandlers>(ex.getDatabaseExceptionsHandler(), HttpStatus.NOT_FOUND);
+        return new ResponseEntity<DatabaseExceptionsHandlers>(ex.getDatabaseExceptionsHandler(),
+                HttpStatus.NOT_FOUND);
     }
 }

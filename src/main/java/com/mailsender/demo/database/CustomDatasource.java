@@ -15,16 +15,16 @@ import javax.sql.DataSource;
 public class CustomDatasource {
 
     @Bean
-    public DataSource datasource() {
+    public DataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("org.h2.Driver");
         dataSource.setUsername("sa");
         dataSource.setPassword("");
-        dataSource.setUrl("jdbc:h2:./src/main/resources/database/EmbeddedDb;INIT=create schema if not exists ADDRESSEES" +
+        dataSource.setUrl("jdbc:h2:./src/main/resources/database/EmbeddedDb;" +
+                "INIT=create schema if not exists ADDRESSEES" +
                 "\\; runscript from './src/main/resources/database/create-db.sql'");
         return dataSource;
     }
-
 //    @Bean
 //    public DataSource dataSource() {
 //        return new EmbeddedDatabaseBuilder(new FileSystemResourceLoader())
@@ -34,11 +34,11 @@ public class CustomDatasource {
 //                .build();
 //    }
 //
-//    @Bean
-//    public JdbcTemplate createJdbcTemplate() {
-//        JdbcTemplate template = new JdbcTemplate();
-//        template.setDataSource(dataSource());
-//        return template;
-//    }
+    @Bean
+    public JdbcTemplate createJdbcTemplate() {
+        JdbcTemplate template = new JdbcTemplate();
+        template.setDataSource(dataSource());
+        return template;
+    }
 
 }

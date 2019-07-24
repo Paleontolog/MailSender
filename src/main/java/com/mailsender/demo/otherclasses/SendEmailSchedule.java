@@ -1,11 +1,11 @@
 package com.mailsender.demo.otherclasses;
 
-import com.mailsender.demo.database.DatabaseAccessor;
+import com.mailsender.demo.csv.CSVParser;
 import com.mailsender.demo.csv.implement.CSVParserImpl;
+import com.mailsender.demo.database.DatabaseAccessor;
 import com.mailsender.demo.database.dto.AddresseesDB;
 import lombok.extern.slf4j.Slf4j;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -13,27 +13,25 @@ import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.Arrays;
+import java.util.GregorianCalendar;
+import java.util.List;
 
 @Slf4j
 @Component
 public class SendEmailSchedule {
 
-    private final JavaMailSender emailSender;
-    private final DatabaseAccessor databaseAccessor;
-    private final CSVParserImpl csvParserImpl;
-
-    public SendEmailSchedule(JavaMailSender emailSender,
-                             DatabaseAccessor databaseAccessor, CSVParserImpl csvParserImpl) {
-        this.emailSender = emailSender;
-        this.databaseAccessor = databaseAccessor;
-        this.csvParserImpl = csvParserImpl;
-    }
+    @Autowired
+    private JavaMailSender emailSender;
+    @Autowired
+    private DatabaseAccessor databaseAccessor;
+    @Autowired
+    private CSVParser csvParser;
 
     private void executed() {
         log.info("Sending messages to emails");
         SimpleMailMessage message = new SimpleMailMessage();
-        message.setFrom("Naglui.eretick@yandex.ru");
+        message.setFrom("1Adeptus.Mechanicus1@gmail.com");
         for (AddresseesDB addresseesDB : databaseAccessor.getAllAddresses()) {
             message.setTo(addresseesDB.getEmail());
             message.setSubject("Привет от Бэрримора");
@@ -43,11 +41,9 @@ public class SendEmailSchedule {
         log.info("All messages sended");
     }
 
-    @Scheduled(cron="0 0 17 * * MON-FRI")
-   // @Scheduled(fixedDelay = 5000)
-   // @Scheduled(cron="*/5 * * * * MON-FRI")
+    @Scheduled(cron="${schedule.cron}")
     public void sendEmail() throws IOException {
-        String schedule = csvParserImpl.getCurrentSchedule();
+        String schedule = csvParser.getCurrentSchedule();
         List<String> checkDay = Arrays
                 .asList(schedule.replaceAll("[^\\d,]", "")
                 .split(","));

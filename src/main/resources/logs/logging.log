@@ -389,3 +389,52 @@
 [DEBUG] 2019-07-23 14:07:49.429 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
 [INFO ] 2019-07-23 14:07:49.429 [restartedMain] Application - No active profile set, falling back to default profiles: default
 [INFO ] 2019-07-23 14:07:52.041 [restartedMain] Application - Started Application in 2.832 seconds (JVM running for 3.493)
+[INFO ] 2019-07-23 17:18:15.338 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 11496 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-23 17:18:15.338 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-23 17:18:15.339 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-23 17:18:19.151 [restartedMain] Application - Started Application in 4.046 seconds (JVM running for 4.824)
+[INFO ] 2019-07-23 17:31:20.268 [http-nio-8080-exec-3] AddressesController - AddressesWebDTO(id=null, email=hfghfghtf)
+[INFO ] 2019-07-23 17:49:39.965 [http-nio-8080-exec-1] AddressesController - AddressesWebDTO(id=null, email=fsfe)
+[INFO ] 2019-07-23 17:55:54.809 [http-nio-8080-exec-5] AddressesController - AddressesWebDTO(id=null, email=пвпвкпвпв)
+[INFO ] 2019-07-23 18:03:35.171 [http-nio-8080-exec-7] AddressesController - AddressesWebDTO(id=null, email=dadwadaw)
+[INFO ] 2019-07-23 18:10:54.778 [http-nio-8080-exec-6] AddressesController - AddressesWebDTO(id=null, email=lezgyan@yandex.ru)
+[INFO ] 2019-07-23 18:11:11.272 [http-nio-8080-exec-8] AddressesController - AddressesWebDTO(id=1, email=hello world)
+[INFO ] 2019-07-23 19:07:54.908 [http-nio-8080-exec-6] AddressesController - AddressesWebDTO(id=null, email=пидарок)
+[INFO ] 2019-07-23 20:13:19.638 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 2856 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-23 20:13:19.638 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-23 20:13:19.639 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-23 20:13:23.307 [restartedMain] Application - Started Application in 3.896 seconds (JVM running for 4.577)
+[INFO ] 2019-07-23 20:13:25.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-07-23 20:13:25.001 [scheduling-1] SimpleDownloader - src/main/resources/schedulefiles/schedule.csv
+[INFO ] 2019-07-23 20:13:25.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-07-23 20:13:30.618 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[INFO ] 2019-07-23 20:13:30.901 [scheduling-1] CSVParserImpl - 2019
+[INFO ] 2019-07-23 20:13:30.902 [scheduling-1] CSVParserImpl - 7
+[INFO ] 2019-07-23 20:13:30.903 [scheduling-1] SendEmailSchedule - [6, 7, 13, 14, 20, 21, 27, 28]
+[INFO ] 2019-07-23 20:13:30.904 [scheduling-1] SendEmailSchedule - 23
+[INFO ] 2019-07-23 20:13:30.904 [scheduling-1] SendEmailSchedule - It's a not working day
+[INFO ] 2019-07-23 20:13:35.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-07-23 20:13:35.001 [scheduling-1] SimpleDownloader - src/main/resources/schedulefiles/schedule.csv
+[INFO ] 2019-07-23 20:13:35.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-07-23 20:13:40.195 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[INFO ] 2019-07-23 20:13:40.455 [scheduling-1] CSVParserImpl - 2019
+[INFO ] 2019-07-23 20:13:40.455 [scheduling-1] CSVParserImpl - 7
+[INFO ] 2019-07-23 20:13:40.457 [scheduling-1] SendEmailSchedule - [6, 7, 13, 14, 20, 21, 27, 28]
+[INFO ] 2019-07-23 20:13:40.457 [scheduling-1] SendEmailSchedule - 23
+[INFO ] 2019-07-23 20:13:40.457 [scheduling-1] SendEmailSchedule - It's a not working day
+[INFO ] 2019-07-23 22:36:42.838 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 168 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-23 22:36:42.838 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-23 22:36:42.839 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-23 22:36:46.067 [restartedMain] Application - Started Application in 3.468 seconds (JVM running for 4.126)
+[INFO ] 2019-07-23 22:37:06.845 [http-nio-8080-exec-5] AddressesController - AddressesWebDTO(id=null, email=lezgyan@yandex.ru )
+[INFO ] 2019-07-23 22:37:40.736 [http-nio-8080-exec-7] AddressesController - AddressesWebDTO(id=null, email=lezgyan.artem@yandex.ru)
+[INFO ] 2019-07-24 00:23:20.319 [http-nio-8080-exec-10] AddressesController - AddressesWebDTO(id=null, email=lezgyan.artem@yandex.ru)
+[INFO ] 2019-07-24 09:06:33.639 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 9968 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-24 09:06:33.639 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-24 09:06:33.640 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-24 09:06:37.276 [restartedMain] Application - Started Application in 3.873 seconds (JVM running for 4.565)
+[INFO ] 2019-07-24 09:23:14.331 [http-nio-8080-exec-5] AddressesController - AddressesWebDTO(id=null, email=Horus.heresy@yandex.ru)
+[INFO ] 2019-07-24 09:42:04.582 [http-nio-8080-exec-3] AddressesController - AddressesWebDTO(id=3, email=Magnus.not.a.traitor@yandex.ru)
+[INFO ] 2019-07-24 09:46:24.803 [http-nio-8080-exec-7] AddressesController - AddressesWebDTO(id=1984, email=Magnus.not.a.traitor@yandex.ru)
+[ERROR] 2019-07-24 09:46:25.027 [http-nio-8080-exec-7] DatabaseAccessorJDBC - User not found
+[INFO ] 2019-07-24 11:18:06.484 [http-nio-8080-exec-10] AddressesController - AddressesWebDTO(id=1, email=string)

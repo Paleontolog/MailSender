@@ -9,5 +9,4 @@ public interface DatabaseAccessor {
     List<AddresseesDB> getAllAddresses();
     int addAddressees(AddresseesDB addresseesDB);
     int updateAddresses(AddresseesDB addresseesDB);
-    void setDataSource(DataSource datasource);
 }

@@ -33,7 +33,6 @@ public class ExceptionnControllerTest {
     @Autowired
     private Converter converter;
 
-
     @Test
     public void testPostNotOk() throws Exception {
         AddressesWebDTO addresseesWeb = new AddressesWebDTO(1L, "Heretic");

@@ -8,7 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import javax.sql.DataSource;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
@@ -16,20 +15,8 @@ import java.util.List;
 @Slf4j
 @Repository
 public class DatabaseAccessorJDBC implements DatabaseAccessor {
-    //@Autowired
-    private JdbcTemplate jdbcTemplate;
-
-    @Override
     @Autowired
-    public void setDataSource(DataSource dataSource) {
-        this.jdbcTemplate = new JdbcTemplate(dataSource);
-    }
-
-    private AddresseesDB mapRow(ResultSet rs, int rowNum) throws SQLException {
-        Long id = rs.getLong("id");
-        String email = rs.getString("email");
-        return new AddresseesDB(id, email);
-    }
+    private JdbcTemplate jdbcTemplate;
 
     @Override
     public List<AddresseesDB> getAllAddresses() {

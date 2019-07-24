@@ -1,42 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>Подключение внешнего скрипта</title>
-	<script src="../public/js/script.js" type="text/javascript"></script>
-	<link rel="stylesheet" type="text/css" href="../public/assets/css/main.css">
+    <meta charset="UTF-8">
+    <title>Подключение внешнего скрипта</title>
+    <script src="../public/js/script.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="../public/assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="../public/assets/css/myCSS.css">
 </head>
 
 <body>
-	<h1> Список адресатов: </h1>
-	<div class="wrapper">
-	<div class="inner">
-		<div class="content">
-<!--			<div class="row">-->
-<!--				<div class="col-6 col-12-medium">-->
-	<div id="addressess" class='table-wrapper'>
-		<table id="addressess list" class="alt">
-			<tr class="">
-				<th>ID пользователя</th>
-				<th>e-mail</th>
-			</tr>
-		</table>
-		</div>
-				</div>
-	</div>
-<!--	</div>-->
-<!--	</div>-->
-	</div>
-
-	<input type="button" onclick="Hello();" name="allAddresses" value="Список адресатов">
-	<div>
-		<input type="text" value="" placeholder="email" id="inputE-MAILAdd">
-		<input type="button" onclick="add();" name="delAddresses" value="Добавить адресата">
-	</div>
-	<div>
-		<input type="text" value="" placeholder="id" id="inputID">
-		<input type="text" value="" placeholder="email" id="inputE-MAILChange">
-		<input type="button" onclick="changeOnId();" name="changeAddresses" value="Изменить адресата">
-	</div>
+<h1 align="center"> Список адресатов </h1>
+<div class="wrapper inner content" align="center">
+    <div id="addressess" class='table-wrapper scroll font' >
+        <table class="alt">
+            <thead>
+            <tr>
+                <th class="font">ID пользователя</th>
+                <th class="font">e-mail</th>
+            </tr>
+            </thead>
+            <tbody id="addressess list">
+            </tbody>
+        </table>
+    </div>
+    <ul>
+       <input type="button" onclick="getAllAddressees();"
+                class="button primary font" name="allAddresses" value="Список адресатов">
+    </ul>
+    <ul class="actions fit">
+        <li>
+            <input type="text" class="font" value="" placeholder="email" id="inputE-MAILAdd">
+        </li>
+        <li>
+            <input type="button" onclick="addAddressees();"
+                   class="button primary font" name="delAddresses" value="Добавить адресата">
+        </li>
+    </ul>
+    <ul class="actions fit">
+        <li>
+            <input type="text" value="" class="font" placeholder="id" id="inputID">
+        </li>
+        <li>
+            <input type="text" value="" class="font" placeholder="email"
+                   id="inputE-MAILChange">
+        </li>
+        <li>
+            <input type="button" onclick="changeAddresseesOnId();"
+                   class="button primary font" name="changeAddresses" value="Изменить адресата">
+        </li>
+    </ul>
+</div>
 </body>
 </html>
