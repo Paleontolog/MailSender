@@ -374,3 +374,19 @@ Database is already closed (to disable automatic closing at VM shutdown, add ";D
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2019-07-25 16:40:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "GO[*] CREATE TABLE ADDRESSEES ( ID IDENTITY NOT NULL PRIMARY KEY, EMAIL VARCHAR(255) NOT NULL ) "; ожидалось "GRANT"
+Syntax error in SQL statement "GO[*] CREATE TABLE ADDRESSEES ( ID IDENTITY NOT NULL PRIMARY KEY, EMAIL VARCHAR(255) NOT NULL ) "; expected "GRANT"; SQL statement:
+go CREATE TABLE ADDRESSEES ( ID IDENTITY NOT NULL PRIMARY KEY, EMAIL VARCHAR(255) NOT NULL ) [42001-199]
+2019-07-25 17:00:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "ADDRESSEES" уже существует
+Table "ADDRESSEES" already exists; SQL statement:
+CREATE TABLE ADDRESSEES ( ID IDENTITY NOT NULL PRIMARY KEY, EMAIL VARCHAR(255) NOT NULL ) [42101-199]
+2019-07-25 17:00:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "ADDRESSEES" уже существует
+Table "ADDRESSEES" already exists; SQL statement:
+CREATE TABLE ADDRESSEES ( ID IDENTITY NOT NULL PRIMARY KEY, EMAIL VARCHAR(255) NOT NULL ) [42101-199]
+2019-07-25 17:01:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "ADDRESSEES" уже существует
+Table "ADDRESSEES" already exists; SQL statement:
+CREATE TABLE ADDRESSEES ( ID IDENTITY NOT NULL PRIMARY KEY, EMAIL VARCHAR(255) NOT NULL ) [42101-199]

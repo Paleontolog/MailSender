@@ -93,4 +93,3 @@ function changeAddresseesOnId() {
 	else
 		alert("Должны быть заполнены оба поля!");
 }
-

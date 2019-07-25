@@ -25,15 +25,7 @@ public class CustomDatasource {
                 "\\; runscript from './src/main/resources/database/create-db.sql'");
         return dataSource;
     }
-//    @Bean
-//    public DataSource dataSource() {
-//        return new EmbeddedDatabaseBuilder(new FileSystemResourceLoader())
-//                .generateUniqueName(true)
-//                .setType(EmbeddedDatabaseType.H2)
-//                .addScript("src/main/resources/database/create-db.sql")
-//                .build();
-//    }
-//
+
     @Bean
     public JdbcTemplate createJdbcTemplate() {
         JdbcTemplate template = new JdbcTemplate();
