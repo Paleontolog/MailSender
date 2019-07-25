@@ -1047,3 +1047,68 @@
 [DEBUG] 2019-07-25 17:16:10.263 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru)]
 [DEBUG] 2019-07-25 17:16:10.273 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=10, email=heretic@horus.ru)
 [ERROR] 2019-07-25 17:16:10.273 [main] DatabaseAccessorJDBC - User not found
+[INFO ] 2019-07-25 17:25:20.446 [main] DatabaseAccessorTest - Starting DatabaseAccessorTest on DESKTOP-LFV37HU with PID 13172 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-25 17:25:20.446 [main] DatabaseAccessorTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-25 17:25:20.447 [main] DatabaseAccessorTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-25 17:25:23.551 [main] DatabaseAccessorTest - Started DatabaseAccessorTest in 3.34 seconds (JVM running for 4.321)
+[DEBUG] 2019-07-25 17:25:23.921 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru)]
+[DEBUG] 2019-07-25 17:25:23.922 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=3, email=heretic@horus.ru)
+[DEBUG] 2019-07-25 17:25:23.928 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru), AddresseesDB(id=3, email=heretic@horus.ru)]
+[DEBUG] 2019-07-25 17:25:23.941 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=2, email=heretic@horus.ru)
+[DEBUG] 2019-07-25 17:25:23.944 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=heretic@horus.ru)]
+[DEBUG] 2019-07-25 17:25:23.954 [main] DatabaseAccessorTest - Loaded Persons: [AddresseesDB(id=1, email=lezgyan@yandex.ru), AddresseesDB(id=2, email=lezgyan.artem@yandex.ru)]
+[DEBUG] 2019-07-25 17:25:23.963 [main] DatabaseAccessorTest - Loaded Persons: AddresseesDB(id=10, email=heretic@horus.ru)
+[ERROR] 2019-07-25 17:25:23.963 [main] DatabaseAccessorJDBC - User not found
+[INFO ] 2019-07-25 20:22:49.497 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 6188 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-25 20:22:49.497 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-25 20:22:49.498 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-25 20:22:54.909 [main] ControllerTest - Started ControllerTest in 5.676 seconds (JVM running for 6.705)
+[INFO ] 2019-07-25 20:26:13.692 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 9612 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-25 20:26:13.693 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-25 20:26:13.693 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-25 20:26:19.268 [main] ControllerTest - Started ControllerTest in 5.856 seconds (JVM running for 6.883)
+[INFO ] 2019-07-25 20:33:02.143 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 7944 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-25 20:33:02.143 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-25 20:33:02.144 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-25 20:33:07.376 [main] ControllerTest - Started ControllerTest in 5.5 seconds (JVM running for 6.524)
+[INFO ] 2019-07-25 20:33:17.634 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 4464 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-25 20:33:17.634 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-25 20:33:17.635 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-25 20:33:22.828 [main] ControllerTest - Started ControllerTest in 5.453 seconds (JVM running for 6.446)
+[INFO ] 2019-07-25 20:42:40.727 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 8568 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-25 20:42:40.728 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-25 20:42:40.728 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-25 20:42:46.078 [main] ControllerTest - Started ControllerTest in 5.615 seconds (JVM running for 6.635)
+[INFO ] 2019-07-25 20:42:46.321 [main] AddressesController - AddressesWebDTO(id=1, email=Heretic)
+[INFO ] 2019-07-25 20:44:23.047 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 13640 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-25 20:44:23.047 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-25 20:44:23.048 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-25 20:44:28.413 [main] ControllerTest - Started ControllerTest in 5.655 seconds (JVM running for 6.677)
+[INFO ] 2019-07-25 20:44:28.629 [main] AddressesController - AddressesWebDTO(id=1, email=Heretic)
+[INFO ] 2019-07-25 20:54:46.263 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 4632 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-25 20:54:46.263 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-25 20:54:46.263 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-25 20:54:51.569 [main] ControllerTest - Started ControllerTest in 5.561 seconds (JVM running for 6.54)
+[INFO ] 2019-07-25 20:54:51.783 [main] AddressesController - AddressesWebDTO(id=1, email=Heretic)
+[INFO ] 2019-07-25 20:59:45.218 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 12472 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-25 20:59:45.218 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-25 20:59:45.219 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-25 20:59:50.475 [main] ControllerTest - Started ControllerTest in 5.521 seconds (JVM running for 6.497)
+[INFO ] 2019-07-25 21:00:40.926 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 6324 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-25 21:00:40.927 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-25 21:00:40.927 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-25 21:00:46.058 [main] ControllerTest - Started ControllerTest in 5.391 seconds (JVM running for 6.385)
+[INFO ] 2019-07-25 21:21:39.843 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 6732 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-25 21:21:39.843 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-25 21:21:39.844 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-25 21:21:44.996 [main] ControllerTest - Started ControllerTest in 5.423 seconds (JVM running for 6.419)
+[INFO ] 2019-07-25 21:22:05.795 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 2972 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-25 21:22:05.795 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-25 21:22:05.796 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-25 21:22:10.991 [main] ControllerTest - Started ControllerTest in 5.45 seconds (JVM running for 6.437)
+[INFO ] 2019-07-25 21:22:11.193 [main] AddressesController - AddressesWebDTO(id=1, email=Heretic)
+[INFO ] 2019-07-25 21:22:28.820 [main] ControllerTest - Starting ControllerTest on DESKTOP-LFV37HU with PID 7640 (started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-07-25 21:22:28.820 [main] ControllerTest - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-07-25 21:22:28.821 [main] ControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2019-07-25 21:22:34.102 [main] ControllerTest - Started ControllerTest in 5.546 seconds (JVM running for 6.511)
+[INFO ] 2019-07-25 21:22:34.301 [main] AddressesController - AddressesWebDTO(id=1, email=Heretic)

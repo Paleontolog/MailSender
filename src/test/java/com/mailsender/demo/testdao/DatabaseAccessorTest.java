@@ -18,9 +18,7 @@ import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType;
 import org.springframework.test.context.jdbc.Sql;
 import org.springframework.test.context.jdbc.SqlConfig;
 import org.springframework.test.context.junit4.SpringRunner;
-import org.springframework.transaction.annotation.Transactional;
 
-import javax.persistence.TableGenerator;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -37,7 +35,7 @@ public class DatabaseAccessorTest {
     private List<String> emails = Arrays.asList("lezgyan@yandex.ru",
             "lezgyan.artem@yandex.ru");
 
-    @Bean("hello")
+    @Bean("dataSource")
     public EmbeddedDatabase setup() {
          return new EmbeddedDatabaseBuilder()
                 .setType(EmbeddedDatabaseType.H2)
@@ -63,19 +61,19 @@ public class DatabaseAccessorTest {
 
     @Test
     @Sql(scripts = {"/databasetest/beforetest.sql"},
-    config = @SqlConfig(dataSource = "hello"))
+    config = @SqlConfig(dataSource = "dataSource"))
     public void getAllTest() {
         checkList(this.emails);
     }
 
     @Test
     @Sql(scripts = {"/databasetest/beforetest.sql"},
-            config = @SqlConfig(dataSource = "hello"))
+            config = @SqlConfig(dataSource = "dataSource"))
     public void addTest() {
         checkList(emails);
         AddresseesDB addresseesDB = new AddresseesDB(3L, "heretic@horus.ru");
         log.debug("Loaded Persons: " + addresseesDB);
-        databaseAccessor.addAddressees(addresseesDB);
+            databaseAccessor.addAddressees(addresseesDB);
         List<String> emailsExtended = new ArrayList<>(emails);
         emailsExtended.add(addresseesDB.getEmail());
         checkList(emailsExtended);
@@ -83,7 +81,7 @@ public class DatabaseAccessorTest {
 
     @Test
     @Sql(scripts = {"/databasetest/beforetest.sql"},
-            config = @SqlConfig(dataSource = "hello"))
+            config = @SqlConfig(dataSource = "dataSource"))
     public void updateTestOk() {
         AddresseesDB addresseesDB = new AddresseesDB(2L, "heretic@horus.ru");
         log.debug("Loaded Persons: " + addresseesDB);
@@ -97,7 +95,7 @@ public class DatabaseAccessorTest {
 
     @Test(expected = DatabaseException.class)
     @Sql(scripts = {"/databasetest/beforetest.sql"},
-            config = @SqlConfig(dataSource = "hello"))
+            config = @SqlConfig(dataSource = "dataSource"))
     public void updateTestException() {
         AddresseesDB addresseesDB = new AddresseesDB(10L, "heretic@horus.ru");
         log.debug("Loaded Persons: " + addresseesDB);

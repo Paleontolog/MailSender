@@ -2,7 +2,6 @@ package com.mailsender.demo.web;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mailsender.demo.database.dto.AddresseesDB;
-import com.mailsender.demo.exceptions.DatabaseException;
 import com.mailsender.demo.mapper.Converter;
 import com.mailsender.demo.service.DatabaseService;
 import org.junit.Test;
@@ -18,12 +17,9 @@ import java.util.Arrays;
 import java.util.List;
 
 import static org.mockito.Mockito.when;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -54,6 +50,8 @@ public class ControllerTest {
         mockMvc.perform(get("/api/addresses"))
                 .andDo(print())
                 .andExpect(status().isOk())
+                .andExpect(handler().handlerType(AddressesController.class))
+                .andExpect(handler().methodName("getListOfAddressees"))
                 .andExpect(content().contentType("application/json;charset=UTF-8"))
                 .andExpect(content().json(jsonExpected));
 
@@ -67,20 +65,23 @@ public class ControllerTest {
         mockMvc.perform(put("/api/addresses")
                 .content(jsonExpected)
                 .contentType("application/json;charset=UTF-8"))
+                .andExpect(handler().handlerType(AddressesController.class))
+                .andExpect(handler().methodName("add"))
                 .andDo(print())
                 .andExpect(status().isOk());
     }
 
     @Test
     public void testPostOk() throws Exception {
-
-        AddressesWebDTO addresseesWeb = new AddressesWebDTO(1L, "Heretic");
-        String jsonExpected = new ObjectMapper().writeValueAsString(addresseesWeb);
+        AddressesWebDTO addresseesDBS = new AddressesWebDTO(1L, "Heretic");
+        String jsonExpected = new ObjectMapper().writeValueAsString(addresseesDBS);
 
         mockMvc.perform(post("/api/addresses")
                 .content(jsonExpected)
                 .contentType("application/json;charset=UTF-8"))
                 .andDo(print())
+                .andExpect(handler().handlerType(AddressesController.class))
+                .andExpect(handler().methodName("update"))
                 .andExpect(status().isOk());
     }
 }
