@@ -11,3 +11,5 @@ docker push paleontolog/demo:tagname
 mvnw dockerfile:push
 
 docker run -p 8080:8080 -t paleontolog/demo
+
+docker run -p 8080:8080 -it -v D:/database:/database paleontolog/demo
