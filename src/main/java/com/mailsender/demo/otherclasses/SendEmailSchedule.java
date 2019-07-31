@@ -6,6 +6,7 @@ import com.mailsender.demo.database.DatabaseAccessor;
 import com.mailsender.demo.database.dto.AddresseesDB;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -41,6 +42,7 @@ public class SendEmailSchedule {
         log.info("All messages sended");
     }
 
+    @RefreshScope
     @Scheduled(cron="${schedule.cron}")
     public void sendEmail() throws IOException {
         String schedule = csvParser.getCurrentSchedule();

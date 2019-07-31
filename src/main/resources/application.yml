@@ -1,4 +1,11 @@
 spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Paleontolog/MailSender.git
+          searchPaths: "/src/main/resources"
+
 
   application:
     name: MailSender
@@ -41,9 +48,11 @@ spring:
 server:
   port: 8080
 
+
 schedule:
   url: https://data.gov.ru/opendata/7708660670-proizvcalendar
   folder: src/main/resources/schedulefiles/schedule.csv
-  cron: "0 0 17 * * MON-FRI"
+ # cron: "0 0 17 * * MON-FRI"
+  cron: "*/5 * * * * MON-FRI"
 
 
