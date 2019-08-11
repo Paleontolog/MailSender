@@ -32,5 +32,4 @@ public class CustomDatasource {
         template.setDataSource(dataSource());
         return template;
     }
-
 }

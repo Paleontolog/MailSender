@@ -9,6 +9,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.stream.Collectors;
 
 @Slf4j
@@ -22,7 +23,7 @@ public class AddressesController {
     private Converter converter;
 
     @GetMapping
-    public  ResponseEntity<?> getListOfAddressees() {
+    public ResponseEntity<List<AddressesWebDTO>> getListOfAddressees() {
         return new ResponseEntity<>(databaseService.getListOfAddresses()
                 .stream().map((ad)->converter.databaseToWebAddressees(ad))
                 .collect(Collectors.toList()),
@@ -43,5 +44,12 @@ public class AddressesController {
         AddresseesDB addresseesDB = converter.webAddressesToDatabase(addressees);
         databaseService.updateAddresses(addresseesDB);
         return new ResponseEntity<>(null,  HttpStatus.OK);
+    }
+
+    @GetMapping(value = "/{id}")
+    public ResponseEntity<List<AddressesWebDTO>> getAddresseesOnMessage(@PathVariable("id") Long id) {
+        return new ResponseEntity<>(databaseService.getAddresseesOnMessage(id)
+                .stream().map((add)->converter.databaseToWebAddressees(add))
+                .collect(Collectors.toList()), HttpStatus.OK);
     }
 }

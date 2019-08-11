@@ -7,10 +7,10 @@ import org.springframework.data.annotation.Id;
 //@Document(collection = "Addressees")
 @AllArgsConstructor
 @NoArgsConstructor
-public class AddresseesDB {
+public class MessageDB {
     @Id
     private Long id;
-  //  @Field("email")
+    private String subject;
     private String email;
 }
 

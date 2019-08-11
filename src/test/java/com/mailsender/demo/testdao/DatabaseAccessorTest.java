@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabase;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;
@@ -25,17 +26,18 @@ import java.util.List;
 
 @Slf4j
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = DatabaseAccessorTest.class)
 @TestConfiguration
+@Configuration
+@SpringBootTest(classes = DatabaseAccessorTest.class)
 public class DatabaseAccessorTest {
 
     @Autowired
     private DatabaseAccessor databaseAccessor;
 
-    private List<String> emails = Arrays.asList("lezgyan@yandex.ru",
+    private static final List<String> emails = Arrays.asList("lezgyan@yandex.ru",
             "lezgyan.artem@yandex.ru");
 
-    @Bean("dataSource")
+    @Bean("testDataSource")
     public EmbeddedDatabase setup() {
          return new EmbeddedDatabaseBuilder()
                 .setType(EmbeddedDatabaseType.H2)
@@ -61,14 +63,14 @@ public class DatabaseAccessorTest {
 
     @Test
     @Sql(scripts = {"/databasetest/beforetest.sql"},
-    config = @SqlConfig(dataSource = "dataSource"))
+    config = @SqlConfig(dataSource = "testDataSource"))
     public void getAllTest() {
-        checkList(this.emails);
+        checkList(emails);
     }
 
     @Test
     @Sql(scripts = {"/databasetest/beforetest.sql"},
-            config = @SqlConfig(dataSource = "dataSource"))
+            config = @SqlConfig(dataSource = "testDataSource"))
     public void addTest() {
         checkList(emails);
         AddresseesDB addresseesDB = new AddresseesDB(3L, "heretic@horus.ru");
@@ -81,7 +83,7 @@ public class DatabaseAccessorTest {
 
     @Test
     @Sql(scripts = {"/databasetest/beforetest.sql"},
-            config = @SqlConfig(dataSource = "dataSource"))
+            config = @SqlConfig(dataSource = "testDataSource"))
     public void updateTestOk() {
         AddresseesDB addresseesDB = new AddresseesDB(2L, "heretic@horus.ru");
         log.debug("Loaded Persons: " + addresseesDB);
@@ -95,7 +97,7 @@ public class DatabaseAccessorTest {
 
     @Test(expected = DatabaseException.class)
     @Sql(scripts = {"/databasetest/beforetest.sql"},
-            config = @SqlConfig(dataSource = "dataSource"))
+            config = @SqlConfig(dataSource = "testDataSource"))
     public void updateTestException() {
         AddresseesDB addresseesDB = new AddresseesDB(10L, "heretic@horus.ru");
         log.debug("Loaded Persons: " + addresseesDB);

@@ -1,7 +1,10 @@
 FROM openjdk:8-jdk-alpine
 EXPOSE 8080
 ADD /target/app.jar app.jar
-ENTRYPOINT ["java", "-jar","app.jar"]
+ADD /target/classes/schedulefiles/schedule.csv /schedulefiles/schedule.csv
+ADD /target/dependency/application.yml /database/application.yml
+ENTRYPOINT ["java", "-jar", "app.jar", "--spring.config.location=file:/database/application.yml"]
+#ENTRYPOINT ["java", "-jar","app.jar"]
 
 #FROM openjdk:8-jdk-alpine
 #VOLUME /tmp
@@ -12,15 +15,3 @@ ENTRYPOINT ["java", "-jar","app.jar"]
 
 ##RUN apk add --no-cache bash
 
-#FROM openjdk:8-jdk-alpine
-#EXPOSE 8080
-#ADD /target/app.jar app.jar
-#ENTRYPOINT ["java","-jar","app.jar"]
-
-#FROM openjdk:8-jdk-alpine
-#VOLUME /tmp
-#EXPOSE 8080
-#ADD /target/app.jar app.jar
-#ADD target/dependency/database/create-db.sql  /target/dependency/database/create-db.sql
-#ADD target/dependency/database/EmbeddedDb.mv.db  /target/dependency/database/EmbeddedDb.mv.db
-#ENTRYPOINT ["java","-jar","app.jar"]

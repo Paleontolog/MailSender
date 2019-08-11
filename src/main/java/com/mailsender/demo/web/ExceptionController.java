@@ -1,7 +1,7 @@
 package com.mailsender.demo.web;
 
 import com.mailsender.demo.exceptions.DatabaseException;
-import com.mailsender.demo.exceptions.DatabaseExceptionsHandlers;
+import com.mailsender.demo.exceptions.DatabaseExceptionCode;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -12,8 +12,8 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 public class ExceptionController extends ResponseEntityExceptionHandler {
 
     @ExceptionHandler({DatabaseException.class})
-    public ResponseEntity<DatabaseExceptionsHandlers> exceptionChangeUncownUser(DatabaseException ex) {
-        return new ResponseEntity<DatabaseExceptionsHandlers>(ex.getDatabaseExceptionsHandler(),
+    public ResponseEntity<DatabaseExceptionCode> exceptionChangeUncownUser(DatabaseException ex) {
+        return new ResponseEntity<DatabaseExceptionCode>(ex.getDatabaseExceptionsHandler(),
                 HttpStatus.NOT_FOUND);
     }
 }

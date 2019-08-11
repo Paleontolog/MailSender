@@ -42,7 +42,7 @@ function addAddressees() {
 	if (textE_MAIL !== "") {
 
 		var body = {
-			id: null,
+			id: "",
 			email: textE_MAIL
 		};
 

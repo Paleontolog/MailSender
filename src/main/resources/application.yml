@@ -1,20 +1,32 @@
 spring:
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/Paleontolog/MailSender.git
-          searchPaths: "/src/main/resources"
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/Paleontolog/MailSender.git
+#          searchPaths: "/src/main/resources"
 
 
   application:
     name: MailSender
+
+
+  mustache:
+    prefix: classpath:/templates/
+    suffix: .html
 
 #  mandatory-file-encoding: UTF-8
 
   # ===============================
   # DB
   # ===============================
+
+#  data:
+#    mongodb:
+#      host: localhost
+#      port: 27017
+#      database: mail
+
 #  datasource:
 #    url: jdbc:h2:./src/main/resources/database/EmbeddedDb;INIT=create schema if not exists ADDRESSEES\; runscript from './src/main/resources/database/create-db.sql'
 #    #url: jdbc:h2:tcp://localhost/~/test
@@ -48,11 +60,9 @@ spring:
 server:
   port: 8080
 
-
 schedule:
   url: https://data.gov.ru/opendata/7708660670-proizvcalendar
-  folder: src/main/resources/schedulefiles/schedule.csv
- # cron: "0 0 17 * * MON-FRI"
-  cron: "*/5 * * * * MON-FRI"
+  cron: "0 0 17 * * MON-FRI"
+  #cron: "*/5 * * * * MON-FRI"
 
 

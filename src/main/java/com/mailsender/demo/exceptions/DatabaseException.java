@@ -8,5 +8,5 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 public class DatabaseException extends RuntimeException {
-    private DatabaseExceptionsHandlers databaseExceptionsHandler;
+    private DatabaseExceptionCode databaseExceptionsHandler;
 }

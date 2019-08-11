@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <link href="/assets/css/main.css" rel="stylesheet" type="text/css"/>
+    <link href="/assets/css/myCSS.css" rel="stylesheet" type="text/css"/>
+    <meta charset="UTF-8">
+</head>
+
+<body onload="onloadPage()">
+<h1 align="center"> Редактирование сообщения </h1>
+<div class="wrapper inner content" align="center">
+    <div class="row gtr-uniform">
+        <div class="col-8 col-12-xsmall">
+            <input type="text" class="font" value="" placeholder="email" id="">
+        </div>
+        <div class="col-4 col-12-xsmall">
+            <select id="addressees">
+                <option value>-Выбрать адресата-</option>
+                <script id="addr" type="text/template">
+                     {{#addresseesList}}
+                     <option>{{email}}</option>
+                      {{/addresseesList}}
+                </script>
+            </select>
+        </div>
+        <div class="col-12">
+            <input type="text" class="font" value="{{#subject}}{{subject}}{{/subject}}"
+                   placeholder="Тема" id="messageSubject">
+        </div>
+
+        <div class="col-12">
+            <textarea class="font" name="textarea" id="messageText"
+                      placeholder="Введите текст сообщения"
+                      style="resize: none" rows="6">{{#text}}{{text}}{{/text}}</textarea>
+        </div>
+
+        <div class="col-12">
+            <input type="button" onclick="saveMessage();"
+                   class="button primary font" name="saveMessage" value="Сохранить сообщение">
+        </div>
+
+    </div>
+</div>
+<script type="text/javascript" src="/js/mustcache.js"></script>
+<script src="/js/message.js" type="text/javascript"></script>
+<script src="/js/jquery.js" type="text/javascript"></script>
+</body>
+</html>

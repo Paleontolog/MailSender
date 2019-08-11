@@ -498,3 +498,1205 @@
 [INFO ] 2019-08-01 00:00:05.490 [restartedMain] Application - Started Application in 5.092 seconds (JVM running for 5.837)
 [INFO ] 2019-08-01 00:00:42.088 [restartedMain] Application - No active profile set, falling back to default profiles: default
 [INFO ] 2019-08-01 00:04:27.321 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-01 03:27:56.803 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 7092 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-01 03:27:56.803 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-01 03:27:56.804 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-01 03:28:00.561 [restartedMain] Application - Started Application in 4.02 seconds (JVM running for 4.826)
+[INFO ] 2019-08-01 03:37:08.406 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 4848 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-01 03:37:08.406 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-01 03:37:08.407 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-01 03:37:12.104 [restartedMain] Application - Started Application in 3.936 seconds (JVM running for 4.627)
+[INFO ] 2019-08-01 03:59:32.698 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 13444 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-01 03:59:32.698 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-01 03:59:32.699 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-01 03:59:36.473 [restartedMain] Application - Started Application in 4.013 seconds (JVM running for 4.708)
+[INFO ] 2019-08-01 03:59:55.015 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 11124 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-01 03:59:55.016 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-01 03:59:55.016 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-01 03:59:58.669 [restartedMain] Application - Started Application in 3.885 seconds (JVM running for 4.577)
+[INFO ] 2019-08-01 04:00:00.003 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-01 04:00:00.003 [scheduling-1] SimpleDownloader - classpath:/schedulefiles/schedule.csv
+[INFO ] 2019-08-01 04:00:00.003 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-01 04:00:05.371 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[INFO ] 2019-08-01 04:00:10.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-01 04:00:10.001 [scheduling-1] SimpleDownloader - classpath:/schedulefiles/schedule.csv
+[INFO ] 2019-08-01 04:00:10.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-01 04:02:17.492 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 8536 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-01 04:02:17.492 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-01 04:02:17.493 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-01 04:02:21.130 [restartedMain] Application - Started Application in 3.864 seconds (JVM running for 4.549)
+[INFO ] 2019-08-01 04:02:25.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-01 04:02:25.001 [scheduling-1] SimpleDownloader - classpath://schedulefiles/schedule.csv
+[INFO ] 2019-08-01 04:02:25.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-01 04:02:30.062 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[INFO ] 2019-08-05 16:45:35.719 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 2884 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-05 16:45:35.720 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-05 16:45:35.720 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-05 16:45:39.560 [restartedMain] Application - Started Application in 4.048 seconds (JVM running for 5.138)
+[INFO ] 2019-08-05 16:45:40.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-05 16:45:40.001 [scheduling-1] SimpleDownloader - /schedulefiles/schedule.csv
+[INFO ] 2019-08-05 16:45:40.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-05 16:45:46.785 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[ERROR] 2019-08-05 16:45:47.053 [scheduling-1] SimpleDownloader - Downloading error
+java.nio.file.NoSuchFileException: \schedulefiles\schedule.csv
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:222) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3141) ~[?:?]
+	at com.mailsender.demo.csv.implement.SimpleDownloader.download(SimpleDownloader.java:43) [classes/:?]
+	at com.mailsender.demo.csv.implement.CSVParserImpl.getCurrentSchedule(CSVParserImpl.java:31) [classes/:?]
+	at com.mailsender.demo.otherclasses.SendEmailSchedule.sendEmail(SendEmailSchedule.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[ERROR] 2019-08-05 16:45:47.057 [scheduling-1] CSVParserImpl - Parsing schedule error
+java.io.FileNotFoundException: \schedulefiles\schedule.csv (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:155) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:110) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.mailsender.demo.csv.implement.CSVParserImpl.getCurrentSchedule(CSVParserImpl.java:33) [classes/:?]
+	at com.mailsender.demo.otherclasses.SendEmailSchedule.sendEmail(SendEmailSchedule.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[INFO ] 2019-08-05 16:45:50.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-05 16:45:50.002 [scheduling-1] SimpleDownloader - /schedulefiles/schedule.csv
+[INFO ] 2019-08-05 16:45:50.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-05 16:45:54.966 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[INFO ] 2019-08-05 16:46:07.841 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 8616 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-05 16:46:07.842 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-05 16:46:07.842 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-05 16:46:11.451 [restartedMain] Application - Started Application in 3.85 seconds (JVM running for 4.58)
+[INFO ] 2019-08-05 16:46:15.000 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-05 16:46:15.000 [scheduling-1] SimpleDownloader - ./schedulefiles/schedule.csv
+[INFO ] 2019-08-05 16:46:15.000 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-05 16:46:20.336 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[ERROR] 2019-08-05 16:46:20.627 [scheduling-1] SimpleDownloader - Downloading error
+java.nio.file.NoSuchFileException: .\schedulefiles\schedule.csv
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:222) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3141) ~[?:?]
+	at com.mailsender.demo.csv.implement.SimpleDownloader.download(SimpleDownloader.java:43) [classes/:?]
+	at com.mailsender.demo.csv.implement.CSVParserImpl.getCurrentSchedule(CSVParserImpl.java:31) [classes/:?]
+	at com.mailsender.demo.otherclasses.SendEmailSchedule.sendEmail(SendEmailSchedule.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[ERROR] 2019-08-05 16:46:20.630 [scheduling-1] CSVParserImpl - Parsing schedule error
+java.io.FileNotFoundException: .\schedulefiles\schedule.csv (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:155) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:110) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.mailsender.demo.csv.implement.CSVParserImpl.getCurrentSchedule(CSVParserImpl.java:33) [classes/:?]
+	at com.mailsender.demo.otherclasses.SendEmailSchedule.sendEmail(SendEmailSchedule.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[INFO ] 2019-08-05 16:46:25.000 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-05 16:46:25.000 [scheduling-1] SimpleDownloader - ./schedulefiles/schedule.csv
+[INFO ] 2019-08-05 16:46:25.000 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-05 16:46:36.060 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[ERROR] 2019-08-05 16:46:36.313 [scheduling-1] SimpleDownloader - Downloading error
+java.nio.file.NoSuchFileException: .\schedulefiles\schedule.csv
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:222) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3141) ~[?:?]
+	at com.mailsender.demo.csv.implement.SimpleDownloader.download(SimpleDownloader.java:43) [classes/:?]
+	at com.mailsender.demo.csv.implement.CSVParserImpl.getCurrentSchedule(CSVParserImpl.java:31) [classes/:?]
+	at com.mailsender.demo.otherclasses.SendEmailSchedule.sendEmail(SendEmailSchedule.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[ERROR] 2019-08-05 16:46:36.314 [scheduling-1] CSVParserImpl - Parsing schedule error
+java.io.FileNotFoundException: .\schedulefiles\schedule.csv (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:155) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:110) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.mailsender.demo.csv.implement.CSVParserImpl.getCurrentSchedule(CSVParserImpl.java:33) [classes/:?]
+	at com.mailsender.demo.otherclasses.SendEmailSchedule.sendEmail(SendEmailSchedule.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[INFO ] 2019-08-05 16:46:40.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-05 16:46:40.001 [scheduling-1] SimpleDownloader - ./schedulefiles/schedule.csv
+[INFO ] 2019-08-05 16:46:40.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-05 16:46:44.993 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[ERROR] 2019-08-05 16:46:45.259 [scheduling-1] SimpleDownloader - Downloading error
+java.nio.file.NoSuchFileException: .\schedulefiles\schedule.csv
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:222) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3141) ~[?:?]
+	at com.mailsender.demo.csv.implement.SimpleDownloader.download(SimpleDownloader.java:43) [classes/:?]
+	at com.mailsender.demo.csv.implement.CSVParserImpl.getCurrentSchedule(CSVParserImpl.java:31) [classes/:?]
+	at com.mailsender.demo.otherclasses.SendEmailSchedule.sendEmail(SendEmailSchedule.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[ERROR] 2019-08-05 16:46:45.260 [scheduling-1] CSVParserImpl - Parsing schedule error
+java.io.FileNotFoundException: .\schedulefiles\schedule.csv (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:155) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:110) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.mailsender.demo.csv.implement.CSVParserImpl.getCurrentSchedule(CSVParserImpl.java:33) [classes/:?]
+	at com.mailsender.demo.otherclasses.SendEmailSchedule.sendEmail(SendEmailSchedule.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[INFO ] 2019-08-05 16:46:50.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-05 16:46:50.001 [scheduling-1] SimpleDownloader - ./schedulefiles/schedule.csv
+[INFO ] 2019-08-05 16:46:50.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-05 16:46:54.962 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[ERROR] 2019-08-05 16:46:55.291 [scheduling-1] SimpleDownloader - Downloading error
+java.nio.file.NoSuchFileException: .\schedulefiles\schedule.csv
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:222) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3141) ~[?:?]
+	at com.mailsender.demo.csv.implement.SimpleDownloader.download(SimpleDownloader.java:43) [classes/:?]
+	at com.mailsender.demo.csv.implement.CSVParserImpl.getCurrentSchedule(CSVParserImpl.java:31) [classes/:?]
+	at com.mailsender.demo.otherclasses.SendEmailSchedule.sendEmail(SendEmailSchedule.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[ERROR] 2019-08-05 16:46:55.292 [scheduling-1] CSVParserImpl - Parsing schedule error
+java.io.FileNotFoundException: .\schedulefiles\schedule.csv (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:155) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:110) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.mailsender.demo.csv.implement.CSVParserImpl.getCurrentSchedule(CSVParserImpl.java:33) [classes/:?]
+	at com.mailsender.demo.otherclasses.SendEmailSchedule.sendEmail(SendEmailSchedule.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[INFO ] 2019-08-05 16:47:00.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-05 16:47:00.001 [scheduling-1] SimpleDownloader - ./schedulefiles/schedule.csv
+[INFO ] 2019-08-05 16:47:00.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-05 16:47:05.331 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[ERROR] 2019-08-05 16:47:05.625 [scheduling-1] SimpleDownloader - Downloading error
+java.nio.file.NoSuchFileException: .\schedulefiles\schedule.csv
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:222) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3141) ~[?:?]
+	at com.mailsender.demo.csv.implement.SimpleDownloader.download(SimpleDownloader.java:43) [classes/:?]
+	at com.mailsender.demo.csv.implement.CSVParserImpl.getCurrentSchedule(CSVParserImpl.java:31) [classes/:?]
+	at com.mailsender.demo.otherclasses.SendEmailSchedule.sendEmail(SendEmailSchedule.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[ERROR] 2019-08-05 16:47:05.626 [scheduling-1] CSVParserImpl - Parsing schedule error
+java.io.FileNotFoundException: .\schedulefiles\schedule.csv (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:155) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:110) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.mailsender.demo.csv.implement.CSVParserImpl.getCurrentSchedule(CSVParserImpl.java:33) [classes/:?]
+	at com.mailsender.demo.otherclasses.SendEmailSchedule.sendEmail(SendEmailSchedule.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[INFO ] 2019-08-05 16:47:10.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-05 16:47:10.002 [scheduling-1] SimpleDownloader - ./schedulefiles/schedule.csv
+[INFO ] 2019-08-05 16:47:10.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-05 16:47:15.192 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[ERROR] 2019-08-05 16:47:15.466 [scheduling-1] SimpleDownloader - Downloading error
+java.nio.file.NoSuchFileException: .\schedulefiles\schedule.csv
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:222) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3141) ~[?:?]
+	at com.mailsender.demo.csv.implement.SimpleDownloader.download(SimpleDownloader.java:43) [classes/:?]
+	at com.mailsender.demo.csv.implement.CSVParserImpl.getCurrentSchedule(CSVParserImpl.java:31) [classes/:?]
+	at com.mailsender.demo.otherclasses.SendEmailSchedule.sendEmail(SendEmailSchedule.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[ERROR] 2019-08-05 16:47:15.467 [scheduling-1] CSVParserImpl - Parsing schedule error
+java.io.FileNotFoundException: .\schedulefiles\schedule.csv (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:155) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:110) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.mailsender.demo.csv.implement.CSVParserImpl.getCurrentSchedule(CSVParserImpl.java:33) [classes/:?]
+	at com.mailsender.demo.otherclasses.SendEmailSchedule.sendEmail(SendEmailSchedule.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[INFO ] 2019-08-05 16:47:27.480 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 6728 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-05 16:47:27.480 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-05 16:47:27.481 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-05 16:47:31.177 [restartedMain] Application - Started Application in 3.928 seconds (JVM running for 4.616)
+[INFO ] 2019-08-05 16:47:35.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-05 16:47:35.001 [scheduling-1] SimpleDownloader - schedulefiles/schedule.csv
+[INFO ] 2019-08-05 16:47:35.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-05 16:47:43.245 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[ERROR] 2019-08-05 16:47:43.514 [scheduling-1] SimpleDownloader - Downloading error
+java.nio.file.NoSuchFileException: schedulefiles\schedule.csv
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:222) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3141) ~[?:?]
+	at com.mailsender.demo.csv.implement.SimpleDownloader.download(SimpleDownloader.java:43) [classes/:?]
+	at com.mailsender.demo.csv.implement.CSVParserImpl.getCurrentSchedule(CSVParserImpl.java:31) [classes/:?]
+	at com.mailsender.demo.otherclasses.SendEmailSchedule.sendEmail(SendEmailSchedule.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[ERROR] 2019-08-05 16:47:43.517 [scheduling-1] CSVParserImpl - Parsing schedule error
+java.io.FileNotFoundException: schedulefiles\schedule.csv (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:155) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:110) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.mailsender.demo.csv.implement.CSVParserImpl.getCurrentSchedule(CSVParserImpl.java:33) [classes/:?]
+	at com.mailsender.demo.otherclasses.SendEmailSchedule.sendEmail(SendEmailSchedule.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[INFO ] 2019-08-05 16:47:45.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-05 16:47:45.002 [scheduling-1] SimpleDownloader - schedulefiles/schedule.csv
+[INFO ] 2019-08-05 16:47:45.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-05 23:58:02.757 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 932 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-05 23:58:02.757 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-05 23:58:02.758 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-06 00:02:55.958 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 5608 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-06 00:02:55.958 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-06 00:02:55.959 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-06 00:04:16.169 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 13020 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-06 00:04:16.169 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-06 00:04:16.170 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-06 00:04:19.671 [restartedMain] Application - Started Application in 3.77 seconds (JVM running for 4.525)
+[INFO ] 2019-08-06 00:04:20.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:04:20.002 [scheduling-1] SimpleDownloader - /schedulefiles/schedule.csv
+[INFO ] 2019-08-06 00:04:20.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:04:25.520 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[ERROR] 2019-08-06 00:04:25.794 [scheduling-1] SimpleDownloader - Downloading error
+java.nio.file.NoSuchFileException: \schedulefiles\schedule.csv
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:222) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3141) ~[?:?]
+	at com.mailsender.demo.csv.implement.SimpleDownloader.download(SimpleDownloader.java:43) [classes/:?]
+	at com.mailsender.demo.csv.implement.CSVParserImpl.getCurrentSchedule(CSVParserImpl.java:31) [classes/:?]
+	at com.mailsender.demo.otherclasses.SendEmailSchedule.sendEmail(SendEmailSchedule.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[ERROR] 2019-08-06 00:04:25.798 [scheduling-1] CSVParserImpl - Parsing schedule error
+java.io.FileNotFoundException: \schedulefiles\schedule.csv (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:155) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:110) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.mailsender.demo.csv.implement.CSVParserImpl.getCurrentSchedule(CSVParserImpl.java:33) [classes/:?]
+	at com.mailsender.demo.otherclasses.SendEmailSchedule.sendEmail(SendEmailSchedule.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[INFO ] 2019-08-06 00:04:30.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:04:30.001 [scheduling-1] SimpleDownloader - /schedulefiles/schedule.csv
+[INFO ] 2019-08-06 00:04:30.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:04:34.834 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[ERROR] 2019-08-06 00:04:35.102 [scheduling-1] SimpleDownloader - Downloading error
+java.nio.file.NoSuchFileException: \schedulefiles\schedule.csv
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:222) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3141) ~[?:?]
+	at com.mailsender.demo.csv.implement.SimpleDownloader.download(SimpleDownloader.java:43) [classes/:?]
+	at com.mailsender.demo.csv.implement.CSVParserImpl.getCurrentSchedule(CSVParserImpl.java:31) [classes/:?]
+	at com.mailsender.demo.otherclasses.SendEmailSchedule.sendEmail(SendEmailSchedule.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[ERROR] 2019-08-06 00:04:35.103 [scheduling-1] CSVParserImpl - Parsing schedule error
+java.io.FileNotFoundException: \schedulefiles\schedule.csv (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:155) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:110) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.mailsender.demo.csv.implement.CSVParserImpl.getCurrentSchedule(CSVParserImpl.java:33) [classes/:?]
+	at com.mailsender.demo.otherclasses.SendEmailSchedule.sendEmail(SendEmailSchedule.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[INFO ] 2019-08-06 00:05:42.678 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 7264 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-06 00:05:42.678 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-06 00:05:42.679 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-06 00:05:45.986 [restartedMain] Application - Started Application in 3.568 seconds (JVM running for 4.332)
+[INFO ] 2019-08-06 00:05:50.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:05:50.001 [scheduling-1] SimpleDownloader - schedulefiles/schedule.csv
+[INFO ] 2019-08-06 00:05:50.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:05:55.045 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[ERROR] 2019-08-06 00:05:55.333 [scheduling-1] SimpleDownloader - Downloading error
+java.nio.file.NoSuchFileException: schedulefiles\schedule.csv
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:222) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3141) ~[?:?]
+	at com.mailsender.demo.csv.implement.SimpleDownloader.download(SimpleDownloader.java:43) [classes/:?]
+	at com.mailsender.demo.csv.implement.CSVParserImpl.getCurrentSchedule(CSVParserImpl.java:31) [classes/:?]
+	at com.mailsender.demo.otherclasses.SendEmailSchedule.sendEmail(SendEmailSchedule.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[ERROR] 2019-08-06 00:05:55.337 [scheduling-1] CSVParserImpl - Parsing schedule error
+java.io.FileNotFoundException: schedulefiles\schedule.csv (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:155) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:110) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.mailsender.demo.csv.implement.CSVParserImpl.getCurrentSchedule(CSVParserImpl.java:33) [classes/:?]
+	at com.mailsender.demo.otherclasses.SendEmailSchedule.sendEmail(SendEmailSchedule.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[INFO ] 2019-08-06 00:06:51.551 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 12340 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-06 00:06:51.551 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-06 00:06:51.552 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-06 00:06:55.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:06:55.001 [scheduling-1] SimpleDownloader - /src/main/resources/schedulefiles/schedule.csv
+[INFO ] 2019-08-06 00:06:55.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:06:55.019 [restartedMain] Application - Started Application in 3.731 seconds (JVM running for 4.462)
+[INFO ] 2019-08-06 00:07:00.288 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[ERROR] 2019-08-06 00:07:00.555 [scheduling-1] SimpleDownloader - Downloading error
+java.nio.file.NoSuchFileException: \src\main\resources\schedulefiles\schedule.csv
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:222) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3141) ~[?:?]
+	at com.mailsender.demo.csv.implement.SimpleDownloader.download(SimpleDownloader.java:43) [classes/:?]
+	at com.mailsender.demo.csv.implement.CSVParserImpl.getCurrentSchedule(CSVParserImpl.java:31) [classes/:?]
+	at com.mailsender.demo.otherclasses.SendEmailSchedule.sendEmail(SendEmailSchedule.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[ERROR] 2019-08-06 00:07:00.558 [scheduling-1] CSVParserImpl - Parsing schedule error
+java.io.FileNotFoundException: \src\main\resources\schedulefiles\schedule.csv (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:155) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:110) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at com.mailsender.demo.csv.implement.CSVParserImpl.getCurrentSchedule(CSVParserImpl.java:33) [classes/:?]
+	at com.mailsender.demo.otherclasses.SendEmailSchedule.sendEmail(SendEmailSchedule.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[INFO ] 2019-08-06 00:07:05.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:07:05.002 [scheduling-1] SimpleDownloader - /src/main/resources/schedulefiles/schedule.csv
+[INFO ] 2019-08-06 00:07:05.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:07:15.891 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 8256 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-06 00:07:15.891 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-06 00:07:15.892 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-06 00:07:19.290 [restartedMain] Application - Started Application in 3.653 seconds (JVM running for 4.382)
+[INFO ] 2019-08-06 00:07:20.000 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:07:20.000 [scheduling-1] SimpleDownloader - ./src/main/resources/schedulefiles/schedule.csv
+[INFO ] 2019-08-06 00:07:20.000 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:07:25.108 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[INFO ] 2019-08-06 00:07:25.381 [scheduling-1] CSVParserImpl - 2019
+[INFO ] 2019-08-06 00:07:25.381 [scheduling-1] CSVParserImpl - 8
+[INFO ] 2019-08-06 00:07:25.383 [scheduling-1] SendEmailSchedule - [3, 4, 10, 11, 17, 18, 24, 25, 31]
+[INFO ] 2019-08-06 00:07:25.384 [scheduling-1] SendEmailSchedule - 06
+[INFO ] 2019-08-06 00:07:25.384 [scheduling-1] SendEmailSchedule - Sending emails
+[INFO ] 2019-08-06 00:07:25.384 [scheduling-1] SendEmailSchedule - Sending messages to emails
+[INFO ] 2019-08-06 00:07:25.398 [scheduling-1] SendEmailSchedule - All messages sended
+[INFO ] 2019-08-06 00:07:30.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:07:30.002 [scheduling-1] SimpleDownloader - ./src/main/resources/schedulefiles/schedule.csv
+[INFO ] 2019-08-06 00:07:30.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:07:35.240 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[INFO ] 2019-08-06 00:07:35.517 [scheduling-1] CSVParserImpl - 2019
+[INFO ] 2019-08-06 00:07:35.517 [scheduling-1] CSVParserImpl - 8
+[INFO ] 2019-08-06 00:07:35.518 [scheduling-1] SendEmailSchedule - [3, 4, 10, 11, 17, 18, 24, 25, 31]
+[INFO ] 2019-08-06 00:07:35.519 [scheduling-1] SendEmailSchedule - 06
+[INFO ] 2019-08-06 00:07:35.519 [scheduling-1] SendEmailSchedule - Sending emails
+[INFO ] 2019-08-06 00:07:35.519 [scheduling-1] SendEmailSchedule - Sending messages to emails
+[INFO ] 2019-08-06 00:07:35.520 [scheduling-1] SendEmailSchedule - All messages sended
+[INFO ] 2019-08-06 00:07:40.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:07:40.001 [scheduling-1] SimpleDownloader - ./src/main/resources/schedulefiles/schedule.csv
+[INFO ] 2019-08-06 00:07:40.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:07:44.728 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[INFO ] 2019-08-06 00:07:45.016 [scheduling-1] CSVParserImpl - 2019
+[INFO ] 2019-08-06 00:07:45.016 [scheduling-1] CSVParserImpl - 8
+[INFO ] 2019-08-06 00:07:45.018 [scheduling-1] SendEmailSchedule - [3, 4, 10, 11, 17, 18, 24, 25, 31]
+[INFO ] 2019-08-06 00:07:45.018 [scheduling-1] SendEmailSchedule - 06
+[INFO ] 2019-08-06 00:07:45.018 [scheduling-1] SendEmailSchedule - Sending emails
+[INFO ] 2019-08-06 00:07:45.018 [scheduling-1] SendEmailSchedule - Sending messages to emails
+[INFO ] 2019-08-06 00:07:45.019 [scheduling-1] SendEmailSchedule - All messages sended
+[INFO ] 2019-08-06 00:07:50.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:07:50.002 [scheduling-1] SimpleDownloader - ./src/main/resources/schedulefiles/schedule.csv
+[INFO ] 2019-08-06 00:07:50.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:07:54.960 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[INFO ] 2019-08-06 00:07:55.223 [scheduling-1] CSVParserImpl - 2019
+[INFO ] 2019-08-06 00:07:55.223 [scheduling-1] CSVParserImpl - 8
+[INFO ] 2019-08-06 00:07:55.225 [scheduling-1] SendEmailSchedule - [3, 4, 10, 11, 17, 18, 24, 25, 31]
+[INFO ] 2019-08-06 00:07:55.225 [scheduling-1] SendEmailSchedule - 06
+[INFO ] 2019-08-06 00:07:55.225 [scheduling-1] SendEmailSchedule - Sending emails
+[INFO ] 2019-08-06 00:07:55.225 [scheduling-1] SendEmailSchedule - Sending messages to emails
+[INFO ] 2019-08-06 00:07:55.226 [scheduling-1] SendEmailSchedule - All messages sended
+[INFO ] 2019-08-06 00:08:00.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:08:00.001 [scheduling-1] SimpleDownloader - ./src/main/resources/schedulefiles/schedule.csv
+[INFO ] 2019-08-06 00:08:00.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:08:05.154 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[INFO ] 2019-08-06 00:08:05.419 [scheduling-1] CSVParserImpl - 2019
+[INFO ] 2019-08-06 00:08:05.419 [scheduling-1] CSVParserImpl - 8
+[INFO ] 2019-08-06 00:08:05.421 [scheduling-1] SendEmailSchedule - [3, 4, 10, 11, 17, 18, 24, 25, 31]
+[INFO ] 2019-08-06 00:08:05.421 [scheduling-1] SendEmailSchedule - 06
+[INFO ] 2019-08-06 00:08:05.421 [scheduling-1] SendEmailSchedule - Sending emails
+[INFO ] 2019-08-06 00:08:05.421 [scheduling-1] SendEmailSchedule - Sending messages to emails
+[INFO ] 2019-08-06 00:08:05.422 [scheduling-1] SendEmailSchedule - All messages sended
+[INFO ] 2019-08-06 00:08:07.804 [http-nio-8080-exec-3] AddressesController - AddressesWebDTO(id=null, email=lezgyan@yandex.ru)
+[ERROR] 2019-08-06 00:08:07.811 [http-nio-8080-exec-3] DatabaseAccessorMongo - org.springframework.dao.InvalidDataAccessApiUsageException: Cannot autogenerate id of type java.lang.Long for entity of type com.mailsender.demo.database.dto.AddresseesDB!
+[INFO ] 2019-08-06 00:08:10.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:08:10.002 [scheduling-1] SimpleDownloader - ./src/main/resources/schedulefiles/schedule.csv
+[INFO ] 2019-08-06 00:08:10.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:08:14.043 [http-nio-8080-exec-1] AddressesController - AddressesWebDTO(id=null, email=lezgyan@yandex.ru)
+[ERROR] 2019-08-06 00:08:14.043 [http-nio-8080-exec-1] DatabaseAccessorMongo - org.springframework.dao.InvalidDataAccessApiUsageException: Cannot autogenerate id of type java.lang.Long for entity of type com.mailsender.demo.database.dto.AddresseesDB!
+[INFO ] 2019-08-06 00:08:14.787 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[INFO ] 2019-08-06 00:08:15.050 [scheduling-1] CSVParserImpl - 2019
+[INFO ] 2019-08-06 00:08:15.051 [scheduling-1] CSVParserImpl - 8
+[INFO ] 2019-08-06 00:08:15.051 [scheduling-1] SendEmailSchedule - [3, 4, 10, 11, 17, 18, 24, 25, 31]
+[INFO ] 2019-08-06 00:08:15.051 [scheduling-1] SendEmailSchedule - 06
+[INFO ] 2019-08-06 00:08:15.051 [scheduling-1] SendEmailSchedule - Sending emails
+[INFO ] 2019-08-06 00:08:15.051 [scheduling-1] SendEmailSchedule - Sending messages to emails
+[INFO ] 2019-08-06 00:08:15.052 [scheduling-1] SendEmailSchedule - All messages sended
+[INFO ] 2019-08-06 00:08:20.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:08:20.002 [scheduling-1] SimpleDownloader - ./src/main/resources/schedulefiles/schedule.csv
+[INFO ] 2019-08-06 00:08:20.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:08:24.843 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[INFO ] 2019-08-06 00:08:25.106 [scheduling-1] CSVParserImpl - 2019
+[INFO ] 2019-08-06 00:08:25.106 [scheduling-1] CSVParserImpl - 8
+[INFO ] 2019-08-06 00:08:25.107 [scheduling-1] SendEmailSchedule - [3, 4, 10, 11, 17, 18, 24, 25, 31]
+[INFO ] 2019-08-06 00:08:25.107 [scheduling-1] SendEmailSchedule - 06
+[INFO ] 2019-08-06 00:08:25.107 [scheduling-1] SendEmailSchedule - Sending emails
+[INFO ] 2019-08-06 00:08:25.107 [scheduling-1] SendEmailSchedule - Sending messages to emails
+[INFO ] 2019-08-06 00:08:25.108 [scheduling-1] SendEmailSchedule - All messages sended
+[INFO ] 2019-08-06 00:08:30.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:08:30.002 [scheduling-1] SimpleDownloader - ./src/main/resources/schedulefiles/schedule.csv
+[INFO ] 2019-08-06 00:08:30.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:08:34.940 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[INFO ] 2019-08-06 00:08:35.213 [scheduling-1] CSVParserImpl - 2019
+[INFO ] 2019-08-06 00:08:35.213 [scheduling-1] CSVParserImpl - 8
+[INFO ] 2019-08-06 00:08:35.214 [scheduling-1] SendEmailSchedule - [3, 4, 10, 11, 17, 18, 24, 25, 31]
+[INFO ] 2019-08-06 00:08:35.214 [scheduling-1] SendEmailSchedule - 06
+[INFO ] 2019-08-06 00:08:35.214 [scheduling-1] SendEmailSchedule - Sending emails
+[INFO ] 2019-08-06 00:08:35.214 [scheduling-1] SendEmailSchedule - Sending messages to emails
+[INFO ] 2019-08-06 00:08:35.215 [scheduling-1] SendEmailSchedule - All messages sended
+[INFO ] 2019-08-06 00:08:40.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:08:40.002 [scheduling-1] SimpleDownloader - ./src/main/resources/schedulefiles/schedule.csv
+[INFO ] 2019-08-06 00:08:40.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:08:43.948 [http-nio-8080-exec-3] AddressesController - AddressesWebDTO(id=null, email=lezgyan@yandex.ru)
+[ERROR] 2019-08-06 00:08:43.948 [http-nio-8080-exec-3] DatabaseAccessorMongo - org.springframework.dao.InvalidDataAccessApiUsageException: Cannot autogenerate id of type java.lang.Long for entity of type com.mailsender.demo.database.dto.AddresseesDB!
+[INFO ] 2019-08-06 00:08:44.717 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[INFO ] 2019-08-06 00:08:44.985 [scheduling-1] CSVParserImpl - 2019
+[INFO ] 2019-08-06 00:08:44.985 [scheduling-1] CSVParserImpl - 8
+[INFO ] 2019-08-06 00:08:44.986 [scheduling-1] SendEmailSchedule - [3, 4, 10, 11, 17, 18, 24, 25, 31]
+[INFO ] 2019-08-06 00:08:44.986 [scheduling-1] SendEmailSchedule - 06
+[INFO ] 2019-08-06 00:08:44.986 [scheduling-1] SendEmailSchedule - Sending emails
+[INFO ] 2019-08-06 00:08:44.986 [scheduling-1] SendEmailSchedule - Sending messages to emails
+[INFO ] 2019-08-06 00:08:44.987 [scheduling-1] SendEmailSchedule - All messages sended
+[INFO ] 2019-08-06 00:08:45.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:08:45.002 [scheduling-1] SimpleDownloader - ./src/main/resources/schedulefiles/schedule.csv
+[INFO ] 2019-08-06 00:08:45.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:08:49.737 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[INFO ] 2019-08-06 00:08:50.005 [scheduling-1] CSVParserImpl - 2019
+[INFO ] 2019-08-06 00:08:50.005 [scheduling-1] CSVParserImpl - 8
+[INFO ] 2019-08-06 00:08:50.005 [scheduling-1] SendEmailSchedule - [3, 4, 10, 11, 17, 18, 24, 25, 31]
+[INFO ] 2019-08-06 00:08:50.005 [scheduling-1] SendEmailSchedule - 06
+[INFO ] 2019-08-06 00:08:50.005 [scheduling-1] SendEmailSchedule - Sending emails
+[INFO ] 2019-08-06 00:08:50.005 [scheduling-1] SendEmailSchedule - Sending messages to emails
+[INFO ] 2019-08-06 00:08:50.006 [scheduling-1] SendEmailSchedule - All messages sended
+[INFO ] 2019-08-06 00:08:55.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:08:55.002 [scheduling-1] SimpleDownloader - ./src/main/resources/schedulefiles/schedule.csv
+[INFO ] 2019-08-06 00:08:55.002 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-06 00:09:09.052 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 2056 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-06 00:09:09.052 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-06 00:09:09.053 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-06 00:09:12.436 [restartedMain] Application - Started Application in 3.641 seconds (JVM running for 4.361)
+[INFO ] 2019-08-06 00:09:17.197 [http-nio-8080-exec-2] AddressesController - AddressesWebDTO(id=null, email=lezgyan@yandex.ru)
+[ERROR] 2019-08-06 00:09:17.208 [http-nio-8080-exec-2] DatabaseAccessorMongo - org.springframework.dao.InvalidDataAccessApiUsageException: Cannot autogenerate id of type java.lang.Long for entity of type com.mailsender.demo.database.dto.AddresseesDB!
+[INFO ] 2019-08-06 00:10:21.173 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 2576 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-06 00:10:21.174 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-06 00:10:21.175 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-06 00:10:21.375 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 7756 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-06 00:10:21.375 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-06 00:10:21.376 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-06 00:10:25.657 [restartedMain] Application - Started Application in 4.65 seconds (JVM running for 7.789)
+[INFO ] 2019-08-06 00:10:28.303 [http-nio-8080-exec-1] AddressesController - AddressesWebDTO(id=null, email=lezgyan@yandex.ru)
+[ERROR] 2019-08-06 00:10:28.314 [http-nio-8080-exec-1] DatabaseAccessorMongo - org.springframework.dao.InvalidDataAccessApiUsageException: Cannot autogenerate id of type java.lang.Long for entity of type com.mailsender.demo.database.dto.AddresseesDB!
+[INFO ] 2019-08-06 00:10:45.428 [http-nio-8080-exec-2] AddressesController - AddressesWebDTO(id=null, email=lezgyan@yandex.ru)
+[ERROR] 2019-08-06 00:11:46.966 [http-nio-8080-exec-2] DatabaseAccessorMongo - org.springframework.dao.InvalidDataAccessApiUsageException: Cannot autogenerate id of type java.lang.Long for entity of type com.mailsender.demo.database.dto.AddresseesDB!
+[INFO ] 2019-08-06 00:12:33.480 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 6052 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-06 00:12:33.480 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-06 00:12:33.481 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-06 00:12:37.468 [restartedMain] Application - Started Application in 4.299 seconds (JVM running for 5.185)
+[INFO ] 2019-08-06 00:12:42.757 [http-nio-8080-exec-1] AddressesController - AddressesWebDTO(id=null, email=lezgyan@yandex.ru)
+[INFO ] 2019-08-06 00:12:53.427 [http-nio-8080-exec-2] AddressesController - AddressesWebDTO(id=null, email=lezgyan@yandex.ru)
+[INFO ] 2019-08-06 00:12:53.427 [http-nio-8080-exec-4] AddressesController - AddressesWebDTO(id=null, email=lezgyan@yandex.ru)
+[INFO ] 2019-08-06 00:12:53.428 [http-nio-8080-exec-3] AddressesController - AddressesWebDTO(id=null, email=lezgyan@yandex.ru)
+[INFO ] 2019-08-06 00:12:53.428 [http-nio-8080-exec-5] AddressesController - AddressesWebDTO(id=null, email=lezgyan@yandex.ru)
+[ERROR] 2019-08-06 00:13:11.418 [http-nio-8080-exec-4] DatabaseAccessorMongo - org.springframework.dao.DuplicateKeyException: E11000 duplicate key error collection: mail.Addressees index: _id_ dup key: { : 1 }; nested exception is com.mongodb.MongoWriteException: E11000 duplicate key error collection: mail.Addressees index: _id_ dup key: { : 1 }
+[ERROR] 2019-08-06 00:13:11.418 [http-nio-8080-exec-2] DatabaseAccessorMongo - org.springframework.dao.DuplicateKeyException: E11000 duplicate key error collection: mail.Addressees index: _id_ dup key: { : 1 }; nested exception is com.mongodb.MongoWriteException: E11000 duplicate key error collection: mail.Addressees index: _id_ dup key: { : 1 }
+[INFO ] 2019-08-06 01:22:08.244 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 7596 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-06 01:22:08.244 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-06 01:22:08.245 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-06 01:22:11.651 [restartedMain] Application - Started Application in 3.662 seconds (JVM running for 4.371)
+[INFO ] 2019-08-06 01:23:50.641 [http-nio-8080-exec-4] AddressesController - AddressesWebDTO(id=null, email=l;l;l;)
+[INFO ] 2019-08-06 01:30:18.808 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 11560 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-06 01:30:18.808 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-06 01:30:18.809 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-06 01:30:22.227 [restartedMain] Application - Started Application in 3.662 seconds (JVM running for 4.385)
+[INFO ] 2019-08-06 01:30:37.708 [http-nio-8080-exec-6] AddressesController - AddressesWebDTO(id=null, email=jjjjjjjjjjjjjjjjjj)
+[ERROR] 2019-08-06 01:30:37.710 [http-nio-8080-exec-6] DatabaseAccessorMongo - org.springframework.dao.InvalidDataAccessApiUsageException: Cannot autogenerate id of type java.lang.Long for entity of type com.mailsender.demo.database.dto.AddresseesDB!
+[INFO ] 2019-08-06 16:55:24.674 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 2600 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-06 16:55:24.674 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-06 16:55:24.675 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-06 16:55:28.355 [restartedMain] Application - Started Application in 3.914 seconds (JVM running for 5.032)
+[INFO ] 2019-08-06 16:55:55.645 [http-nio-8080-exec-3] AddressesController - AddressesWebDTO(id=null, email=nvnghn)
+[ERROR] 2019-08-06 16:55:55.650 [http-nio-8080-exec-3] DatabaseAccessorMongo - org.springframework.dao.InvalidDataAccessApiUsageException: Cannot autogenerate id of type java.lang.Long for entity of type com.mailsender.demo.database.dto.AddresseesDB!
+[INFO ] 2019-08-06 16:56:03.437 [http-nio-8080-exec-4] AddressesController - AddressesWebDTO(id=null, email=nvnghn)
+[ERROR] 2019-08-06 16:56:03.437 [http-nio-8080-exec-4] DatabaseAccessorMongo - org.springframework.dao.InvalidDataAccessApiUsageException: Cannot autogenerate id of type java.lang.Long for entity of type com.mailsender.demo.database.dto.AddresseesDB!
+[INFO ] 2019-08-06 16:56:05.533 [http-nio-8080-exec-5] AddressesController - AddressesWebDTO(id=null, email=nvnghn)
+[ERROR] 2019-08-06 16:56:05.533 [http-nio-8080-exec-5] DatabaseAccessorMongo - org.springframework.dao.InvalidDataAccessApiUsageException: Cannot autogenerate id of type java.lang.Long for entity of type com.mailsender.demo.database.dto.AddresseesDB!
+[INFO ] 2019-08-06 17:05:54.594 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 11492 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-06 17:05:54.594 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-06 17:05:54.595 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-06 17:05:57.841 [restartedMain] Application - Started Application in 3.477 seconds (JVM running for 4.193)
+[INFO ] 2019-08-06 17:06:19.358 [http-nio-8080-exec-3] AddressesController - AddressesWebDTO(id=null, email=sdasdas)
+[INFO ] 2019-08-06 17:06:53.280 [http-nio-8080-exec-7] AddressesController - AddressesWebDTO(id=null, email=sdasdasfdf)
+[INFO ] 2019-08-06 17:10:12.998 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 1588 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-06 17:10:12.998 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-06 17:10:12.999 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-06 17:10:16.310 [restartedMain] Application - Started Application in 3.543 seconds (JVM running for 4.258)
+[INFO ] 2019-08-06 17:10:37.830 [http-nio-8080-exec-2] AddressesController - AddressesWebDTO(id=5d49897d9ba0d22ce4c33144, email=сасай)
+[INFO ] 2019-08-06 18:25:37.446 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 2428 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-06 18:25:37.446 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-06 18:25:37.447 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-06 18:25:40.719 [restartedMain] Application - Started Application in 3.543 seconds (JVM running for 4.541)
+[INFO ] 2019-08-06 18:50:19.966 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 6368 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-06 18:50:19.966 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-06 18:50:19.967 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-06 18:50:23.225 [restartedMain] Application - Started Application in 3.517 seconds (JVM running for 4.226)
+[INFO ] 2019-08-06 18:51:42.464 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 3576 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-06 18:51:42.464 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-06 18:51:42.465 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-06 18:51:46.630 [restartedMain] Application - Started Application in 4.404 seconds (JVM running for 5.103)
+[INFO ] 2019-08-06 18:54:27.050 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 6824 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-06 18:54:27.050 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-06 18:54:27.050 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-06 18:54:30.660 [restartedMain] Application - Started Application in 3.86 seconds (JVM running for 4.549)
+[INFO ] 2019-08-06 18:55:16.278 [http-nio-8080-exec-4] AddressesController - AddressesWebDTO(id=null, email=lezgyan@yandex.ru)
+[INFO ] 2019-08-07 18:48:39.671 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 13244 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-07 18:48:39.687 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-07 18:48:39.687 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-07 18:49:09.640 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 11904 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-07 18:49:09.640 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-07 18:49:09.640 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-07 18:49:13.485 [restartedMain] Application - Started Application in 4.079 seconds (JVM running for 4.764)
+[INFO ] 2019-08-07 18:55:16.455 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 11472 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-07 18:55:16.455 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-07 18:55:16.455 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-07 18:55:20.104 [restartedMain] Application - Started Application in 3.874 seconds (JVM running for 4.561)
+[INFO ] 2019-08-07 18:56:45.736 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 13164 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-07 18:56:45.736 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-07 18:56:45.737 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-07 18:56:49.371 [restartedMain] Application - Started Application in 3.87 seconds (JVM running for 4.559)
+[INFO ] 2019-08-07 18:57:47.199 [http-nio-8080-exec-6] AddressesController - AddressesWebDTO(id=1, email=lezgyan.artem@yandex.ru)
+[INFO ] 2019-08-07 19:10:31.265 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 7036 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-07 19:10:31.265 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-07 19:10:31.266 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-07 19:10:35.176 [restartedMain] Application - Started Application in 4.159 seconds (JVM running for 4.869)
+[INFO ] 2019-08-07 19:12:51.844 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 4336 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-07 19:12:51.844 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-07 19:12:51.845 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-07 19:12:55.492 [restartedMain] Application - Started Application in 3.874 seconds (JVM running for 4.577)
+[INFO ] 2019-08-07 19:13:39.720 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 12244 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-07 19:13:39.721 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-07 19:13:39.722 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-07 19:13:43.453 [restartedMain] Application - Started Application in 3.98 seconds (JVM running for 4.689)
+[INFO ] 2019-08-07 19:18:59.362 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 5944 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-07 19:18:59.362 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-07 19:18:59.363 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-07 19:19:03.164 [restartedMain] Application - Started Application in 4.043 seconds (JVM running for 4.731)
+[INFO ] 2019-08-07 19:20:36.783 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 11528 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-07 19:20:36.784 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-07 19:20:36.784 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-07 19:20:40.445 [restartedMain] Application - Started Application in 3.887 seconds (JVM running for 4.589)
+[INFO ] 2019-08-07 19:20:50.060 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 11564 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-07 19:20:50.060 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-07 19:20:50.061 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-07 19:21:01.793 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 1804 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-07 19:21:01.793 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-07 19:21:01.794 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-07 19:21:05.432 [restartedMain] Application - Started Application in 3.869 seconds (JVM running for 4.569)
+[INFO ] 2019-08-07 19:21:45.318 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 292 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-07 19:21:45.318 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-07 19:21:45.319 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-07 19:21:49.175 [restartedMain] Application - Started Application in 4.092 seconds (JVM running for 4.787)
+[INFO ] 2019-08-07 19:23:31.717 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 5400 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-07 19:23:31.718 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-07 19:23:31.718 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-07 19:23:35.534 [restartedMain] Application - Started Application in 4.053 seconds (JVM running for 4.752)
+[INFO ] 2019-08-07 19:41:57.755 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 10724 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-07 19:41:57.756 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-07 19:41:57.757 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-07 19:42:01.533 [restartedMain] Application - Started Application in 4.015 seconds (JVM running for 4.732)
+[INFO ] 2019-08-07 19:45:00.234 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 10824 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-07 19:45:00.234 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-07 19:45:00.235 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-07 19:45:04.015 [restartedMain] Application - Started Application in 4.019 seconds (JVM running for 4.722)
+[INFO ] 2019-08-07 21:10:25.686 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 7192 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-07 21:10:25.686 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-07 21:10:25.687 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-07 21:10:29.422 [restartedMain] Application - Started Application in 3.974 seconds (JVM running for 4.686)
+[INFO ] 2019-08-08 16:38:42.576 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 8852 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 16:38:42.576 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 16:38:42.577 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 16:38:46.505 [restartedMain] Application - Started Application in 4.24 seconds (JVM running for 5.298)
+[INFO ] 2019-08-08 17:29:31.204 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 5096 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 17:29:31.204 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 17:29:31.205 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 17:29:34.991 [restartedMain] Application - Started Application in 4.019 seconds (JVM running for 4.729)
+[INFO ] 2019-08-08 17:31:41.723 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 12784 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 17:31:41.724 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 17:31:41.725 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 17:31:45.361 [restartedMain] Application - Started Application in 3.881 seconds (JVM running for 4.574)
+[INFO ] 2019-08-08 17:51:13.987 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 5288 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 17:51:13.988 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 17:51:13.989 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 17:51:17.699 [restartedMain] Application - Started Application in 3.957 seconds (JVM running for 4.68)
+[INFO ] 2019-08-08 18:10:40.996 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 7352 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 18:10:40.996 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 18:10:40.997 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 18:10:44.724 [restartedMain] Application - Started Application in 3.993 seconds (JVM running for 4.765)
+[INFO ] 2019-08-08 18:12:34.629 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 10348 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 18:12:34.630 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 18:12:34.630 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 18:12:38.393 [restartedMain] Application - Started Application in 4.012 seconds (JVM running for 4.725)
+[INFO ] 2019-08-08 18:18:38.074 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 12636 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 18:18:38.074 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 18:18:38.075 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 18:18:42.270 [restartedMain] Application - Started Application in 4.416 seconds (JVM running for 5.757)
+[INFO ] 2019-08-08 18:23:33.942 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 7184 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 18:23:33.942 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 18:23:33.942 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 18:23:38.084 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 8880 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 18:23:38.100 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 18:23:38.100 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 18:23:42.210 [restartedMain] Application - Started Application in 4.392 seconds (JVM running for 5.219)
+[INFO ] 2019-08-08 18:25:40.229 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 8944 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 18:25:40.229 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 18:25:40.230 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 18:25:44.351 [restartedMain] Application - Started Application in 4.401 seconds (JVM running for 5.189)
+[INFO ] 2019-08-08 18:29:44.178 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 10624 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 18:29:44.178 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 18:29:44.178 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 18:29:48.318 [restartedMain] Application - Started Application in 4.406 seconds (JVM running for 5.219)
+[INFO ] 2019-08-08 18:31:52.818 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 7000 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 18:31:52.818 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 18:31:52.818 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 18:31:57.035 [restartedMain] Application - Started Application in 4.521 seconds (JVM running for 5.351)
+[INFO ] 2019-08-08 18:34:13.915 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 1252 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 18:34:13.916 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 18:34:13.917 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 18:34:18.020 [restartedMain] Application - Started Application in 4.389 seconds (JVM running for 5.176)
+[INFO ] 2019-08-08 18:36:17.681 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 4640 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 18:36:17.681 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 18:36:17.681 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 18:36:21.824 [restartedMain] Application - Started Application in 4.415 seconds (JVM running for 5.219)
+[INFO ] 2019-08-08 18:38:00.398 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 10312 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 18:38:00.398 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 18:38:00.399 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 18:38:04.508 [restartedMain] Application - Started Application in 4.41 seconds (JVM running for 5.218)
+[ERROR] 2019-08-08 18:38:13.436 [http-nio-8080-exec-1] DatabaseAccessorJDBC - Messages not found
+[INFO ] 2019-08-08 18:38:43.591 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 12568 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 18:38:43.591 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 18:38:43.591 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 18:38:47.755 [restartedMain] Application - Started Application in 4.447 seconds (JVM running for 5.248)
+[INFO ] 2019-08-08 18:42:43.610 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 12892 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 18:42:43.611 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 18:42:43.611 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 18:42:47.834 [restartedMain] Application - Started Application in 4.503 seconds (JVM running for 5.299)
+[INFO ] 2019-08-08 18:43:25.567 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 5172 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 18:43:25.567 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 18:43:25.567 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 18:43:29.754 [restartedMain] Application - Started Application in 4.47 seconds (JVM running for 5.244)
+[INFO ] 2019-08-08 18:48:50.610 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 428 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 18:48:50.611 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 18:48:50.611 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 18:48:54.740 [restartedMain] Application - Started Application in 4.406 seconds (JVM running for 5.224)
+[INFO ] 2019-08-08 18:49:32.831 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 6788 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 18:49:32.831 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 18:49:32.832 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 18:49:37.088 [restartedMain] Application - Started Application in 4.534 seconds (JVM running for 5.339)
+[INFO ] 2019-08-08 18:50:42.343 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 972 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 18:50:42.344 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 18:50:42.344 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 18:50:46.411 [restartedMain] Application - Started Application in 4.34 seconds (JVM running for 5.121)
+[INFO ] 2019-08-08 18:52:15.956 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 8128 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 18:52:15.957 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 18:52:15.957 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 18:52:20.070 [restartedMain] Application - Started Application in 4.394 seconds (JVM running for 5.497)
+[INFO ] 2019-08-08 23:31:40.027 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 2956 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 23:31:40.027 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 23:31:40.028 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 23:31:43.934 [restartedMain] Application - Started Application in 4.147 seconds (JVM running for 4.86)
+[INFO ] 2019-08-08 23:34:55.118 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 3192 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 23:34:55.118 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 23:34:55.119 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 23:34:58.878 [restartedMain] Application - Started Application in 3.995 seconds (JVM running for 4.707)
+[INFO ] 2019-08-08 23:36:42.225 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 12624 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 23:36:42.225 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 23:36:42.241 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 23:36:45.881 [restartedMain] Application - Started Application in 3.874 seconds (JVM running for 4.565)
+[INFO ] 2019-08-08 23:43:24.306 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 6540 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 23:43:24.306 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 23:43:24.306 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 23:43:28.802 [restartedMain] Application - Started Application in 4.719 seconds (JVM running for 5.423)
+[INFO ] 2019-08-08 23:44:17.139 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 3876 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 23:44:17.139 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 23:44:17.139 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 23:44:20.766 [restartedMain] Application - Started Application in 3.875 seconds (JVM running for 4.567)
+[INFO ] 2019-08-08 23:44:57.841 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 10876 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-08 23:44:57.841 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-08 23:44:57.842 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-08 23:45:01.442 [restartedMain] Application - Started Application in 3.838 seconds (JVM running for 4.538)
+[INFO ] 2019-08-09 15:49:57.374 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 10020 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-09 15:49:57.375 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-09 15:49:57.376 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-09 15:50:01.694 [restartedMain] Application - Started Application in 4.631 seconds (JVM running for 5.786)
+[INFO ] 2019-08-09 15:51:46.295 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 6596 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-09 15:51:46.295 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-09 15:51:46.296 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-09 15:51:49.965 [restartedMain] Application - Started Application in 3.905 seconds (JVM running for 4.619)
+[INFO ] 2019-08-09 16:49:50.615 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 10652 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-09 16:49:50.616 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-09 16:49:50.616 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-09 16:49:54.324 [restartedMain] Application - Started Application in 3.931 seconds (JVM running for 4.656)
+[INFO ] 2019-08-09 16:53:40.799 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 1736 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-09 16:53:40.800 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-09 16:53:40.800 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-09 16:53:44.574 [restartedMain] Application - Started Application in 4.031 seconds (JVM running for 4.936)
+[INFO ] 2019-08-09 16:54:22.093 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 4148 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-09 16:54:22.093 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-09 16:54:22.094 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-09 16:54:25.816 [restartedMain] Application - Started Application in 3.965 seconds (JVM running for 4.672)
+[INFO ] 2019-08-09 16:57:18.929 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 12004 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-09 16:57:18.930 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-09 16:57:18.930 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-09 16:57:22.647 [restartedMain] Application - Started Application in 3.951 seconds (JVM running for 4.693)
+[INFO ] 2019-08-09 17:00:00.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-09 17:00:00.001 [scheduling-1] SimpleDownloader - ./src/main/resources/schedulefiles/schedule.csv
+[INFO ] 2019-08-09 17:00:00.001 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar
+[INFO ] 2019-08-09 17:00:05.397 [scheduling-1] SimpleDownloader - https://data.gov.ru/opendata/7708660670-proizvcalendar/data-20181017T0930-structure-20181017T0930.csv?encoding=CP1251
+[INFO ] 2019-08-09 17:00:05.677 [scheduling-1] CSVParserImpl - 2019
+[INFO ] 2019-08-09 17:00:05.677 [scheduling-1] CSVParserImpl - 8
+[INFO ] 2019-08-09 17:00:05.679 [scheduling-1] SendEmailSchedule - [3, 4, 10, 11, 17, 18, 24, 25, 31]
+[INFO ] 2019-08-09 17:00:05.679 [scheduling-1] SendEmailSchedule - 09
+[INFO ] 2019-08-09 17:00:05.679 [scheduling-1] SendEmailSchedule - Sending emails
+[INFO ] 2019-08-09 17:00:05.679 [scheduling-1] SendEmailSchedule - Sending messages to emails
+[INFO ] 2019-08-09 17:00:30.269 [scheduling-1] SendEmailSchedule - All messages sended
+[INFO ] 2019-08-09 17:22:12.970 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 1336 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-09 17:22:12.971 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-09 17:22:12.971 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-09 17:22:16.651 [restartedMain] Application - Started Application in 3.911 seconds (JVM running for 4.632)
+[INFO ] 2019-08-09 17:26:38.913 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 4380 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-09 17:26:38.913 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-09 17:26:38.914 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-09 17:26:42.921 [restartedMain] Application - Started Application in 4.255 seconds (JVM running for 5.0)
+[INFO ] 2019-08-09 17:26:48.495 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 4380 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-09 17:26:48.496 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-09 17:26:48.496 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-09 17:26:50.285 [restartedMain] Application - Started Application in 1.817 seconds (JVM running for 12.365)
+[INFO ] 2019-08-09 17:26:56.281 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 4380 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-09 17:26:56.281 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-09 17:26:56.281 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-09 17:26:58.043 [restartedMain] Application - Started Application in 1.785 seconds (JVM running for 20.123)
+[INFO ] 2019-08-09 17:27:11.105 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 4380 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-09 17:27:11.105 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-09 17:27:11.105 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-09 17:27:13.086 [restartedMain] Application - Started Application in 2.009 seconds (JVM running for 35.166)
+[INFO ] 2019-08-09 17:27:16.657 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 4380 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-09 17:27:16.658 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-09 17:27:16.658 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-09 17:27:18.332 [restartedMain] Application - Started Application in 1.698 seconds (JVM running for 40.412)
+[INFO ] 2019-08-09 17:27:45.109 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 4380 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-09 17:27:45.109 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-09 17:27:45.109 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-09 17:28:02.716 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 4380 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-09 17:28:02.716 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-09 17:28:02.716 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-09 17:28:42.473 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 4380 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-09 17:28:42.473 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-09 17:28:42.473 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-09 17:28:44.222 [restartedMain] Application - Started Application in 1.772 seconds (JVM running for 126.301)
+[INFO ] 2019-08-09 17:28:50.832 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 4380 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-09 17:28:50.832 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-09 17:28:50.832 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-09 17:28:52.505 [restartedMain] Application - Started Application in 1.698 seconds (JVM running for 134.584)
+[INFO ] 2019-08-09 17:31:06.018 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 4380 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-09 17:31:06.018 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-09 17:31:06.018 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-09 17:31:07.695 [restartedMain] Application - Started Application in 1.698 seconds (JVM running for 269.775)
+[INFO ] 2019-08-09 17:57:52.351 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 5264 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-09 17:57:52.352 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-09 17:57:52.352 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-09 17:57:56.051 [restartedMain] Application - Started Application in 3.927 seconds (JVM running for 4.615)
+[INFO ] 2019-08-09 20:11:04.440 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 13272 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-09 20:11:04.440 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-09 20:11:04.441 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-09 20:11:08.187 [restartedMain] Application - Started Application in 3.993 seconds (JVM running for 4.695)
+[INFO ] 2019-08-10 16:38:28.141 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 9276 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-10 16:38:28.141 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-10 16:38:28.142 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-10 16:38:33.302 [restartedMain] Application - Started Application in 5.939 seconds (JVM running for 7.251)
+[INFO ] 2019-08-10 20:14:04.751 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 12084 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-10 20:14:04.751 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-10 20:14:04.752 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-10 20:14:08.416 [restartedMain] Application - Started Application in 3.904 seconds (JVM running for 4.586)
+[INFO ] 2019-08-10 20:16:28.376 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 6120 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-10 20:16:28.376 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-10 20:16:28.376 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-10 20:16:32.047 [restartedMain] Application - Started Application in 3.909 seconds (JVM running for 4.591)
+[INFO ] 2019-08-10 20:19:06.149 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 4200 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-10 20:19:06.149 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-10 20:19:06.150 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-10 20:19:09.839 [restartedMain] Application - Started Application in 3.931 seconds (JVM running for 4.815)
+[INFO ] 2019-08-10 21:50:27.029 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 4312 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-10 21:50:27.029 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-10 21:50:27.030 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-10 21:50:30.877 [restartedMain] Application - Started Application in 4.069 seconds (JVM running for 4.759)
+[INFO ] 2019-08-10 23:05:07.090 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 4312 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-10 23:05:07.090 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-10 23:05:07.091 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-10 23:05:18.164 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 1284 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-10 23:05:18.165 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-10 23:05:18.165 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-10 23:05:21.899 [restartedMain] Application - Started Application in 3.942 seconds (JVM running for 4.709)
+[INFO ] 2019-08-10 23:05:52.950 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 5184 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-10 23:05:52.950 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-10 23:05:52.951 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-10 23:05:56.609 [restartedMain] Application - Started Application in 3.888 seconds (JVM running for 4.581)
+[INFO ] 2019-08-10 23:11:08.308 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 12180 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-10 23:11:08.308 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-10 23:11:08.309 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-10 23:11:11.976 [restartedMain] Application - Started Application in 3.911 seconds (JVM running for 4.579)
+[INFO ] 2019-08-10 23:17:55.051 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 9432 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-10 23:17:55.051 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-10 23:17:55.051 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-10 23:17:58.744 [restartedMain] Application - Started Application in 3.912 seconds (JVM running for 4.613)
+[INFO ] 2019-08-11 15:00:47.733 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 5440 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-11 15:00:47.734 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-11 15:00:47.734 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-11 15:00:52.212 [restartedMain] Application - Started Application in 4.782 seconds (JVM running for 6.018)
+[INFO ] 2019-08-11 15:19:42.691 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 8772 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-11 15:19:42.691 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-11 15:19:42.692 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-11 15:19:46.538 [restartedMain] Application - Started Application in 4.076 seconds (JVM running for 4.811)
+[INFO ] 2019-08-11 17:49:12.417 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 8508 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-11 17:49:12.417 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-11 17:49:12.418 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-11 17:49:16.081 [restartedMain] Application - Started Application in 3.893 seconds (JVM running for 4.57)
+[INFO ] 2019-08-11 18:10:22.780 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 8508 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-11 18:10:22.780 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-11 18:10:22.780 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-11 18:10:24.539 [restartedMain] Application - Started Application in 1.791 seconds (JVM running for 1273.028)
+[INFO ] 2019-08-11 18:11:08.222 [restartedMain] Application - Starting Application on DESKTOP-LFV37HU with PID 5628 (D:\JAVA\MailSender\target\classes started by lezgy in D:\JAVA\MailSender)
+[DEBUG] 2019-08-11 18:11:08.223 [restartedMain] Application - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[INFO ] 2019-08-11 18:11:08.223 [restartedMain] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2019-08-11 18:11:11.901 [restartedMain] Application - Started Application in 3.91 seconds (JVM running for 4.596)
