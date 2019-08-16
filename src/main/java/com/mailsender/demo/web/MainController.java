@@ -1,12 +1,9 @@
 package com.mailsender.demo.web;
 
-import com.mailsender.demo.database.dto.MessageDB;
 import com.mailsender.demo.mapper.Converter;
 import com.mailsender.demo.service.DatabaseService;
-import com.samskivert.mustache.Mustache;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -35,11 +32,16 @@ public class MainController {
     public String getMessageForm(@PathVariable ("id") Long id, Model model) {
         MessageWebDTO message = converter
                 .databaseToWebMessage(databaseService.getMessageOnId(id));
-
         model.addAttribute("subject", message.getSubject());
         model.addAttribute("text", message.getEmail());
         return "messageredactor";
     }
 
+    @RequestMapping(value = "/messlist", method = RequestMethod.GET)
+    public String getMessageForm(DigitRange digitRange, Model model) {
+        model.addAttribute("lastMessList", databaseService.getMessageNSbj(digitRange.getFrom(),
+                digitRange.getCount()));
+        return "messlist";
+    }
 
 }

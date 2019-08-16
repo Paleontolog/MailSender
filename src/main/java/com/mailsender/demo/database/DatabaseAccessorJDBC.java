@@ -5,11 +5,13 @@ import com.mailsender.demo.database.dto.MessageDB;
 import com.mailsender.demo.exceptions.DatabaseException;
 import com.mailsender.demo.exceptions.DatabaseExceptionCode;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.coyote.http11.filters.SavedRequestInputFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
+import org.springframework.jdbc.core.namedparam.SqlParameterSource;
+import org.springframework.jdbc.core.simple.SimpleJdbcInsert;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -31,6 +33,12 @@ public class DatabaseAccessorJDBC implements DatabaseAccessor {
     }
 
     @Override
+    public List<AddresseesDB> getAddresseesByEmail(String email) {
+        return jdbcTemplate.query("select id, email from ADDRESSEES WHERE EMAIL LIKE ?",
+                new Object[]{email + "%"}, new BeanPropertyRowMapper<>(AddresseesDB.class));
+    }
+
+    @Override
     public int addAddressees(AddresseesDB addresseesDB) {
         return jdbcTemplate.update("insert into ADDRESSEES values (?,?) ", null, addresseesDB.getEmail());
     }
@@ -48,8 +56,13 @@ public class DatabaseAccessorJDBC implements DatabaseAccessor {
 
     @Override
     public int saveMessage(MessageDB messageDB) {
-        return jdbcTemplate.update("insert into MESSAGES values (?,?,?) ",
-                null, messageDB.getSubject(), messageDB.getEmail());
+        SimpleJdbcInsert simpleJdbcInsert = new SimpleJdbcInsert(jdbcTemplate);
+        simpleJdbcInsert.withTableName("MESSAGES").usingGeneratedKeyColumns("ID");
+        SqlParameterSource params = new MapSqlParameterSource()
+                .addValue("subject", messageDB.getSubject())
+                .addValue("email", messageDB.getEmail());
+        Number number = simpleJdbcInsert.executeAndReturnKey(params);
+        return number.intValue();
     }
 
     @Override
@@ -66,14 +79,6 @@ public class DatabaseAccessorJDBC implements DatabaseAccessor {
     @Override
     public MessageDB getMessageOnID(Long id) {
         try {
-//            return jdbcTemplate.queryForObject("select ID, SUBJECT, EMAIL from MESSAGES where ID = ?",
-//                    new Object[]{id}, ((resultSet, i) -> {
-//                        MessageDB messageDB = new MessageDB();
-//                        messageDB.setId(resultSet.getLong("id"));
-//                        messageDB.setSubject(resultSet.getString("SUBJECT"));
-//                        messageDB.setText(resultSet.getString("email"));
-//                        return messageDB;
-//                    }));
             return jdbcTemplate.queryForObject("select ID, SUBJECT, EMAIL from MESSAGES where ID = ?",
                     new Object[]{id}, new BeanPropertyRowMapper<>(MessageDB.class));
         } catch (EmptyResultDataAccessException e) {
@@ -83,13 +88,9 @@ public class DatabaseAccessorJDBC implements DatabaseAccessor {
     }
 
     @Override
-    public List<MessageDB> getAllMessageSbj() {
-        return jdbcTemplate.query("select id, subject from MESSAGES",
-                (resultSet, i) -> {
-                    Long id = resultSet.getLong("id");
-                    String subject = resultSet.getString("subject");
-                    return new MessageDB(id, subject, null);
-                });
+    public List<MessageDB> getNMessage(Long N, Long d) {
+        return jdbcTemplate.query("select id, subject, email from MESSAGES",
+                new BeanPropertyRowMapper<>(MessageDB.class));
     }
 
     @Override
@@ -97,6 +98,7 @@ public class DatabaseAccessorJDBC implements DatabaseAccessor {
         return jdbcTemplate.query("select id, subject, email from MESSAGES",
                 new BeanPropertyRowMapper<>(MessageDB.class));
     }
+
 
     @Override
     public int createNewLink(Long idAddressees, Long idMessage) {
@@ -127,9 +129,4 @@ public class DatabaseAccessorJDBC implements DatabaseAccessor {
         String sql = "DELETE FROM SEND_TO WHERE ID_MESSAGE = ?";
         return jdbcTemplate.update(sql, messageID);
     }
-
-
-
-
-
 }

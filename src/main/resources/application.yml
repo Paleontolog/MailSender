@@ -10,7 +10,6 @@ spring:
   application:
     name: MailSender
 
-
   mustache:
     prefix: classpath:/templates/
     suffix: .html
@@ -59,10 +58,13 @@ spring:
 
 server:
   port: 8080
+  address: 192.168.0.120
+
 
 schedule:
   url: https://data.gov.ru/opendata/7708660670-proizvcalendar
   cron: "0 0 17 * * MON-FRI"
+
   #cron: "*/5 * * * * MON-FRI"
 
 

@@ -1,6 +1,5 @@
 package com.mailsender.demo.web;
 
-import com.mailsender.demo.database.dto.AddresseesDB;
 import com.mailsender.demo.database.dto.MessageDB;
 import com.mailsender.demo.mapper.Converter;
 import com.mailsender.demo.service.DatabaseService;
@@ -10,36 +9,23 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Dictionary;
-import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
-
 @Slf4j
 @CrossOrigin(maxAge = 3600)
 @RestController
-@RequestMapping("/api/messages")
+    @RequestMapping("/api/messages")
 public class MessagesController {
     @Autowired
     private DatabaseService databaseService;
     @Autowired
     private Converter converter;
 
-    @GetMapping
-    public ResponseEntity<List<MessageWebDTO>> getSubjects() {
-        return new ResponseEntity<>(databaseService.getListOfSubjects()
-                .stream().map((ad)->converter.databaseToWebMessage(ad))
-                .collect(Collectors.toList()),
-                HttpStatus.OK);
-    }
-
     @PutMapping
     public ResponseEntity<?> addNewMessage(@RequestBody MessageAllInfo messageAllInfo) {
         MessageDB messageDB = converter.webMessageToDatabase(messageAllInfo.getMessage());
-        databaseService.addMessage(messageDB);
+        int messId = databaseService.addMessage(messageDB);
         for (AddressesWebDTO addressees : messageAllInfo.getAddresses()) {
             databaseService.createNewLink(converter.webAddressesToDatabase(addressees).getId(),
-                    messageDB.getId());
+                    (long) messId);
         }
         return new ResponseEntity<>(null, HttpStatus.OK);
     }
@@ -57,8 +43,9 @@ public class MessagesController {
         return new ResponseEntity<>(null, HttpStatus.OK);
     }
 
-    @PostMapping
-    public  ResponseEntity<?> updateMessage(@RequestBody MessageAllInfo messageAllInfo) {
+    @PostMapping("/{id}")
+    public  ResponseEntity<?> updateMessage(@PathVariable("id") Long id,
+            @RequestBody MessageAllInfo messageAllInfo) {
         MessageDB messageDB = converter.webMessageToDatabase(messageAllInfo.getMessage());
         databaseService.updateMessage(messageDB);
         databaseService.deleteLinks(messageDB.getId());
@@ -68,5 +55,6 @@ public class MessagesController {
         }
         return new ResponseEntity<>(null, HttpStatus.OK);
     }
+
 
 }

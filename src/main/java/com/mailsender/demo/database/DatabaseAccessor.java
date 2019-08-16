@@ -8,14 +8,15 @@ import java.util.List;
 
 public interface DatabaseAccessor {
     List<AddresseesDB> getAllAddresses();
+    List<AddresseesDB> getAddresseesByEmail(String name);
     int addAddressees(AddresseesDB addresseesDB);
     int updateAddresses(AddresseesDB addresseesDB);
 
     int saveMessage(MessageDB messageDB);
     int updateMessage(MessageDB messageDB);
     MessageDB getMessageOnID(Long id);
-    List<MessageDB> getAllMessageSbj();
     int deleteMessage(Long id);
+    List<MessageDB> getNMessage(Long N, Long d);
     List<MessageDB> getAllMessage();
 
 

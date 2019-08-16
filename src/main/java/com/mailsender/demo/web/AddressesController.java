@@ -52,4 +52,16 @@ public class AddressesController {
                 .stream().map((add)->converter.databaseToWebAddressees(add))
                 .collect(Collectors.toList()), HttpStatus.OK);
     }
+
+    @GetMapping(value = "/email/{mail}")
+    public ResponseEntity<List<AddressesWebDTO>> getAddresseesOnMessage(@PathVariable("mail") String email) {
+        log.info(email);
+        if (email == null || email.equals("") || email.equals(" ")) {
+            email = "default";
+        }
+        return new ResponseEntity<>(databaseService.getAddresseesByEmail(email)
+                .stream().map((add)->converter.databaseToWebAddressees(add))
+                .collect(Collectors.toList()), HttpStatus.OK);
+    }
+
 }
