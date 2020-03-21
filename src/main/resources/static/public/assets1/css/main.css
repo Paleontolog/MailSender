@@ -2010,7 +2010,7 @@ ul.icons {
     width: 100%;
     z-index: 1; }
   #banner:after {
-    background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+    background: linear-gradient(135deg, #ce1b28 0%, #424fce 74%);
     content: ' ';
     display: block;
     height: 100%;
@@ -2418,7 +2418,7 @@ body {
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background: #0095b6;
+  background: #3129ce;
   color: rgba(255, 255, 255, 0.5);
   cursor: default;
   height: 3.25rem;
@@ -2485,7 +2485,7 @@ body {
 #heading {
   -ms-flex-align: center;
   -ms-flex-pack: center;
-  background-color: #111111;
+  background-color: #48ce3d;
   color: rgba(255, 255, 255, 0.5);
   -moz-align-items: center;
   -webkit-align-items: center;
@@ -2499,7 +2499,7 @@ body {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-image: linear-gradient(rgba(17, 17, 17, 0.25), rgba(17, 17, 17, 0.25)), url("../../images/banner.jpg");
+  background-image: linear-gradient(rgba(32, 206, 45, 0.25), rgba(226, 0, 131, 0.88)), url("../../images/banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

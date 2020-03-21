@@ -3,7 +3,9 @@ package com.mailsender.demo.web;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mailsender.demo.database.dto.AddresseesDB;
 import com.mailsender.demo.mapper.Converter;
-import com.mailsender.demo.service.DatabaseService;
+import com.mailsender.demo.service.AddresseesService;
+import com.mailsender.demo.web.controllers.AddressesController;
+import com.mailsender.demo.web.dto.AddressesWebDTO;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,11 +28,13 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @AutoConfigureMockMvc
 public class ControllerTest {
 
+    private static final Long USER = 1L;
+
     @Autowired
     private MockMvc mockMvc;
 
     @MockBean
-    private DatabaseService databaseService;
+    private AddresseesService addresseesService;
 
     @Autowired
     private Converter converter;
@@ -42,7 +46,7 @@ public class ControllerTest {
                         new AddresseesDB(2L, "Horus"),
                         new AddresseesDB(3L, "Magnus"));
 
-        when(databaseService.getListOfAddresses())
+        when(addresseesService.getListOfAddresses(USER))
                 .thenReturn(addresseesDBS);
 
         String jsonExpected = new ObjectMapper().writeValueAsString(addresseesDBS);

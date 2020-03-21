@@ -2,9 +2,43 @@ DROP TABLE IF EXISTS ADDRESSEES;
 
 CREATE TABLE IF NOT EXISTS ADDRESSEES (
 	ID IDENTITY NOT NULL PRIMARY KEY,
-	EMAIL VARCHAR(255) NOT NULL
+	EMAIL VARCHAR(255) NOT NULL,
+	ID_USER INT,
+	foreign key (ID_USER) references USERS(ID),
+);
+
+CREATE TABLE IF NOT EXISTS MESSAGES (
+	ID IDENTITY NOT NULL PRIMARY KEY,
+	SUBJECT VARCHAR(255) NOT NULL,
+	EMAIL VARCHAR(255) NOT NULL,
+	ID_USER INT,
+	foreign key (ID_USER) references USERS(ID),
+);
+
+CREATE TABLE IF NOT EXISTS SEND_TO (
+	ID IDENTITY NOT NULL PRIMARY KEY,
+	ID_ADDRESSEES INT ,
+	ID_MESSAGE INT ,
+	foreign key (ID_ADDRESSEES) references ADDRESSEES(ID),
+	foreign key (ID_MESSAGE) references MESSAGES(ID)
+);
+
+CREATE TABLE IF NOT EXISTS USERS (
+	ID IDENTITY NOT NULL PRIMARY KEY,
+	EMAIL VARCHAR(255) NOT NULL,
+	PASSWORD VARCHAR(255) NOT NULL,
+	ROLE VARCHAR(255) NOT NULL,
+	UUID VARCHAR(255) NOT NULL
 );
 
 insert into ADDRESSEES values
-    ( null , 'lezgyan@yandex.ru' ),
-    ( null , 'lezgyan.artem@yandex.ru' );
+    ( null , 'lezgyan@yandex.ru', 1 ),
+    ( null , 'lezgyan.artem@yandex.ru', 1 );
+
+insert into MESSAGES values
+    ( null , 'Хорус', 'Еретик' 1 ),
+    ( null , 'Магнус', 'Не предавал', 1 );
+
+insert into SEND_TO values
+    ( null , 1, 1),
+    ( null , 1, 2);

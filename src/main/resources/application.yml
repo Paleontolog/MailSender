@@ -6,15 +6,15 @@ spring:
 #          uri: https://github.com/Paleontolog/MailSender.git
 #          searchPaths: "/src/main/resources"
 
-
   application:
     name: MailSender
 
   mustache:
     prefix: classpath:/templates/
     suffix: .html
+    #expose-request-attributes: true
 
-#  mandatory-file-encoding: UTF-8
+  #  mandatory-file-encoding: UTF-8
 
   # ===============================
   # DB
@@ -56,10 +56,16 @@ spring:
           auth: true
   debug: true
 
+  freemarker:
+    expose-request-attributes: true
+
+  thymeleaf:
+    suffix: .ftl
+
+
 server:
   port: 8080
   address: 192.168.0.120
-
 
 schedule:
   url: https://data.gov.ru/opendata/7708660670-proizvcalendar
